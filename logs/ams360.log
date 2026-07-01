@@ -1,0 +1,1036 @@
+12:26:47  INFO      workflow.ams360_workflow  Starting AMS360 workflow for customer: Seymour, James M
+12:26:47  INFO      browser.browser_manager  Starting browser
+12:26:48  ERROR     main  Unhandled error: BrowserType.launch: Executable doesn't exist at C:\Users\aviral.jain\AppData\Local\ms-playwright\chromium-1223\chrome-win64\chrome.exe
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+12:34:32  INFO      workflow.ams360_workflow  Starting AMS360 workflow for customer: Seymour, James M
+12:34:32  INFO      browser.browser_manager  Starting browser
+12:34:34  INFO      browser.browser_manager  Browser started
+12:34:34  INFO      browser.login_service  Navigating to https://www.ams360.com
+12:35:09  ERROR     workflow.ams360_workflow  Workflow failed: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("#username") to be visible
+    - waiting for" https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f" navigation to finish...
+    - navigated to "https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f"
+
+12:35:09  INFO      browser.browser_manager  Stopping browser
+12:35:09  INFO      browser.browser_manager  Browser stopped
+12:35:09  ERROR     main  Unhandled error: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("#username") to be visible
+    - waiting for" https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f" navigation to finish...
+    - navigated to "https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f"
+
+12:39:31  INFO      workflow.ams360_workflow  Starting AMS360 workflow for customer: Seymour, James M
+12:39:31  INFO      browser.browser_manager  Starting browser
+12:39:33  INFO      browser.browser_manager  Browser started
+12:39:33  INFO      browser.login_service  Navigating to https://www.ams360.com
+12:40:49  INFO      helpers.screenshot  Screenshot saved: screenshots/20260629_124049_login_failed.png
+12:40:49  ERROR     browser.login_service  Login failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#username") to be visible
+
+12:40:49  ERROR     workflow.ams360_workflow  Workflow failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#username") to be visible
+
+12:40:49  INFO      browser.browser_manager  Stopping browser
+12:40:50  INFO      browser.browser_manager  Browser stopped
+12:40:50  ERROR     main  Unhandled error: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#username") to be visible
+
+12:46:24  INFO      workflow.ams360_workflow  Starting AMS360 workflow for customer: Seymour, James M
+12:46:24  INFO      browser.browser_manager  Starting browser
+12:46:26  INFO      browser.browser_manager  Browser started
+12:46:26  INFO      browser.login_service  Navigating to https://www.ams360.com
+12:47:34  INFO      helpers.screenshot  Screenshot saved: screenshots/20260629_124734_login_failed.png
+12:47:34  ERROR     browser.login_service  Login failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#txtAgency") to be visible
+
+12:47:34  ERROR     workflow.ams360_workflow  Workflow failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#txtAgency") to be visible
+
+12:47:34  INFO      browser.browser_manager  Stopping browser
+12:47:35  INFO      browser.browser_manager  Browser stopped
+12:47:35  ERROR     main  Unhandled error: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#txtAgency") to be visible
+
+12:48:27  INFO      workflow.ams360_workflow  Starting AMS360 workflow for customer: Seymour, James M
+12:48:27  INFO      browser.browser_manager  Starting browser
+12:48:28  INFO      browser.browser_manager  Browser started
+12:48:28  INFO      browser.login_service  Navigating to https://www.ams360.com
+12:48:44  INFO      browser.browser_manager  Stopping browser
+12:50:07  INFO      workflow.ams360_workflow  Starting AMS360 workflow for customer: Seymour, James M
+12:50:07  INFO      browser.browser_manager  Starting browser
+12:50:09  INFO      browser.browser_manager  Browser started
+12:50:09  INFO      browser.login_service  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+12:51:14  INFO      helpers.screenshot  Screenshot saved: screenshots/20260629_125114_login_failed.png
+12:51:14  ERROR     browser.login_service  Login failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#txtAgencyNo") to be visible
+
+12:51:14  ERROR     workflow.ams360_workflow  Workflow failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#txtAgencyNo") to be visible
+
+12:51:14  INFO      browser.browser_manager  Stopping browser
+12:51:15  INFO      browser.browser_manager  Browser stopped
+12:51:15  ERROR     main  Unhandled error: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#txtAgencyNo") to be visible
+
+12:59:03  INFO      workflow.ams360_workflow  Starting AMS360 workflow for customer: Seymour, James M
+12:59:03  INFO      browser.browser_manager  Starting browser
+12:59:05  INFO      browser.browser_manager  Browser started
+12:59:05  INFO      browser.login_service  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+13:00:10  INFO      helpers.screenshot  Screenshot saved: screenshots/20260629_130010_login_failed.png
+13:00:10  ERROR     browser.login_service  Login failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#indicatorInput") to be visible
+
+13:00:10  ERROR     workflow.ams360_workflow  Workflow failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#indicatorInput") to be visible
+
+13:00:10  INFO      browser.browser_manager  Stopping browser
+13:00:10  INFO      browser.browser_manager  Browser stopped
+13:00:10  ERROR     main  Unhandled error: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#indicatorInput") to be visible
+
+13:00:40  INFO      workflow.ams360_workflow  Starting AMS360 workflow for customer: Seymour, James M
+13:00:40  INFO      browser.browser_manager  Starting browser
+13:00:41  INFO      browser.browser_manager  Browser started
+13:00:41  INFO      browser.login_service  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+13:00:50  INFO      browser.login_service  Step 1 complete — email submitted
+13:01:52  INFO      helpers.screenshot  Screenshot saved: screenshots/20260629_130152_login_failed.png
+13:01:52  ERROR     browser.login_service  Login failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#dashboard") to be visible
+    - waiting for" https://www.ams360.com/sso/" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/checkinstall.aspx?rauth=0&ReturnUrl=https://www.ams360.com/v2526431/"
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Home" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Home"
+
+13:01:52  ERROR     workflow.ams360_workflow  Workflow failed: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#dashboard") to be visible
+    - waiting for" https://www.ams360.com/sso/" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/checkinstall.aspx?rauth=0&ReturnUrl=https://www.ams360.com/v2526431/"
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Home" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Home"
+
+13:01:52  INFO      browser.browser_manager  Stopping browser
+13:01:53  INFO      browser.browser_manager  Browser stopped
+13:01:53  ERROR     main  Unhandled error: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("#dashboard") to be visible
+    - waiting for" https://www.ams360.com/sso/" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/checkinstall.aspx?rauth=0&ReturnUrl=https://www.ams360.com/v2526431/"
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Home" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Home"
+
+13:14:58  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+13:14:58  INFO      browser_manager.py  Starting browser
+13:14:59  INFO      browser_manager.py  Browser started
+13:14:59  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+13:15:06  INFO      login_service.py  Already logged in — skipping login form
+13:15:06  INFO      customer_service.py  Searching for customer: Seymour, James M
+13:15:28  INFO      browser_manager.py  Stopping browser
+13:54:02  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+13:54:02  INFO      browser_manager.py  Starting browser
+13:54:03  INFO      browser_manager.py  Browser started
+13:54:03  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+13:54:06  INFO      login_service.py  Already logged in — navigating to post-login URL
+13:54:21  INFO      customer_service.py  Searching for customer: Seymour, James M
+13:54:23  INFO      browser_manager.py  Stopping browser
+13:55:47  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+13:55:47  INFO      browser_manager.py  Starting browser
+13:55:49  INFO      browser_manager.py  Browser started
+13:55:49  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+13:55:51  INFO      login_service.py  Already logged in — navigating to post-login URL
+13:56:15  ERROR     ams360_workflow.py  Workflow failed: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.ams360.com/v2526431/NextGen/Home", waiting until "load"
+
+13:56:15  INFO      browser_manager.py  Stopping browser
+13:56:16  INFO      browser_manager.py  Browser stopped
+13:56:16  ERROR     main.py  Unhandled error: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.ams360.com/v2526431/NextGen/Home", waiting until "load"
+
+14:00:32  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:00:32  INFO      browser_manager.py  Starting browser
+14:00:33  INFO      browser_manager.py  Browser started
+14:00:33  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:00:36  INFO      login_service.py  Already logged in — navigating to post-login URL
+14:01:15  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:01:17  INFO      browser_manager.py  Stopping browser
+14:04:47  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:04:47  INFO      browser_manager.py  Starting browser
+14:04:49  INFO      browser_manager.py  Browser started
+14:04:49  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:04:52  INFO      login_service.py  Already logged in — navigating to post-login URL
+14:04:55  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:05:28  INFO      screenshot.py  Screenshot saved: screenshots/20260629_140525_customer_search_failed.png
+14:05:28  ERROR     customer_service.py  Customer search failed: Page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("text=Customers")
+
+14:05:28  ERROR     ams360_workflow.py  Workflow failed: Page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("text=Customers")
+
+14:05:28  INFO      browser_manager.py  Stopping browser
+14:05:29  INFO      browser_manager.py  Browser stopped
+14:05:29  ERROR     main.py  Unhandled error: Page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("text=Customers")
+
+14:06:04  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:06:04  INFO      browser_manager.py  Starting browser
+14:06:06  INFO      browser_manager.py  Browser started
+14:06:06  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:06:09  INFO      login_service.py  Step 1 complete — email submitted
+14:06:50  INFO      login_service.py  Login successful — dashboard loaded
+14:06:50  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:07:20  INFO      screenshot.py  Screenshot saved: screenshots/20260629_140720_customer_search_failed.png
+14:07:20  ERROR     customer_service.py  Customer search failed: Page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("text=Customers")
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Home" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Home"
+
+14:07:20  ERROR     ams360_workflow.py  Workflow failed: Page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("text=Customers")
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Home" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Home"
+
+14:07:20  INFO      browser_manager.py  Stopping browser
+14:07:20  INFO      browser_manager.py  Browser stopped
+14:07:20  ERROR     main.py  Unhandled error: Page.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("text=Customers")
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Home" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Home"
+
+14:17:18  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:17:18  INFO      browser_manager.py  Starting browser
+14:17:20  INFO      browser_manager.py  Browser started
+14:17:20  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:17:23  INFO      login_service.py  Step 1 complete — email submitted
+14:18:04  INFO      login_service.py  Login successful — dashboard loaded
+14:18:04  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:18:41  INFO      screenshot.py  Screenshot saved: screenshots/20260629_141841_customer_search_failed.png
+14:18:41  ERROR     customer_service.py  Customer search failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#customerSearch") to be visible
+
+14:18:41  ERROR     ams360_workflow.py  Workflow failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#customerSearch") to be visible
+
+14:18:41  INFO      browser_manager.py  Stopping browser
+14:18:42  INFO      browser_manager.py  Browser stopped
+14:18:42  ERROR     main.py  Unhandled error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#customerSearch") to be visible
+
+14:21:17  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:21:17  INFO      browser_manager.py  Starting browser
+14:21:18  INFO      browser_manager.py  Browser started
+14:21:18  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:21:27  INFO      login_service.py  Step 1 complete — email submitted
+14:22:09  INFO      login_service.py  Login successful — dashboard loaded
+14:22:09  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:22:10  ERROR     ams360_workflow.py  Workflow failed: Page.goto: Navigation to "https://www.ams360.com/v2526431/NextGen/Customer" is interrupted by another navigation to "https://www.ams360.com/v2526431/NextGen/Home"
+Call log:
+  - navigating to "https://www.ams360.com/v2526431/NextGen/Customer", waiting until "load"
+
+14:22:10  INFO      browser_manager.py  Stopping browser
+14:22:10  INFO      browser_manager.py  Browser stopped
+14:22:10  ERROR     main.py  Unhandled error: Page.goto: Navigation to "https://www.ams360.com/v2526431/NextGen/Customer" is interrupted by another navigation to "https://www.ams360.com/v2526431/NextGen/Home"
+Call log:
+  - navigating to "https://www.ams360.com/v2526431/NextGen/Customer", waiting until "load"
+
+14:24:31  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:24:31  INFO      browser_manager.py  Starting browser
+14:24:32  INFO      browser_manager.py  Browser started
+14:24:32  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:24:46  INFO      login_service.py  Step 1 complete — email submitted
+14:30:21  INFO      login_service.py  Login successful — dashboard loaded
+14:30:21  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:30:22  ERROR     ams360_workflow.py  Workflow failed: Page.goto: Navigation to "https://www.ams360.com/v2526431/NextGen/Customer" is interrupted by another navigation to "https://www.ams360.com/v2526431/NextGen/Home"
+Call log:
+  - navigating to "https://www.ams360.com/v2526431/NextGen/Customer", waiting until "load"
+
+14:30:22  INFO      browser_manager.py  Stopping browser
+14:30:22  INFO      browser_manager.py  Browser stopped
+14:30:22  ERROR     main.py  Unhandled error: Page.goto: Navigation to "https://www.ams360.com/v2526431/NextGen/Customer" is interrupted by another navigation to "https://www.ams360.com/v2526431/NextGen/Home"
+Call log:
+  - navigating to "https://www.ams360.com/v2526431/NextGen/Customer", waiting until "load"
+
+14:34:26  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:34:26  INFO      browser_manager.py  Starting browser
+14:34:28  INFO      browser_manager.py  Browser started
+14:34:28  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:34:34  INFO      login_service.py  Step 1 complete — email submitted
+14:35:16  INFO      login_service.py  Login successful — dashboard loaded
+14:35:16  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:35:16  ERROR     ams360_workflow.py  Workflow failed: Page.goto: Navigation to "https://www.ams360.com/v2526431/NextGen/Customer" is interrupted by another navigation to "https://www.ams360.com/v2526431/NextGen/Home"
+Call log:
+  - navigating to "https://www.ams360.com/v2526431/NextGen/Customer", waiting until "networkidle"
+
+14:35:16  INFO      browser_manager.py  Stopping browser
+14:35:17  INFO      browser_manager.py  Browser stopped
+14:35:17  ERROR     main.py  Unhandled error: Page.goto: Navigation to "https://www.ams360.com/v2526431/NextGen/Customer" is interrupted by another navigation to "https://www.ams360.com/v2526431/NextGen/Home"
+Call log:
+  - navigating to "https://www.ams360.com/v2526431/NextGen/Customer", waiting until "networkidle"
+
+14:37:01  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:37:01  INFO      browser_manager.py  Starting browser
+14:37:03  INFO      browser_manager.py  Browser started
+14:37:03  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:37:08  INFO      login_service.py  Step 1 complete — email submitted
+14:37:50  INFO      login_service.py  Login successful — dashboard loaded
+14:37:50  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:38:29  INFO      screenshot.py  Screenshot saved: screenshots/20260629_143829_customer_search_failed.png
+14:38:29  ERROR     customer_service.py  Customer search failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".customer-result-row") to be visible
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd"
+
+14:38:29  ERROR     ams360_workflow.py  Workflow failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".customer-result-row") to be visible
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd"
+
+14:38:29  INFO      browser_manager.py  Stopping browser
+14:38:30  INFO      browser_manager.py  Browser stopped
+14:38:30  ERROR     main.py  Unhandled error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".customer-result-row") to be visible
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd"
+
+15:00:51  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+15:00:51  INFO      browser_manager.py  Starting browser
+15:00:55  INFO      browser_manager.py  Browser started
+15:00:55  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:00:59  INFO      login_service.py  Step 1 complete — email submitted
+15:01:42  INFO      login_service.py  Login successful — dashboard loaded
+15:01:42  INFO      customer_service.py  Searching for customer: Seymour, James M
+15:02:21  INFO      screenshot.py  Screenshot saved: screenshots/20260629_150220_customer_search_failed.png
+15:02:21  ERROR     customer_service.py  Customer search failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".customer-result-row") to be visible
+    - waiting for navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd"
+
+15:02:21  ERROR     ams360_workflow.py  Workflow failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".customer-result-row") to be visible
+    - waiting for navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd"
+
+15:02:21  INFO      browser_manager.py  Stopping browser
+15:02:21  INFO      browser_manager.py  Browser stopped
+15:02:21  ERROR     main.py  Unhandled error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".customer-result-row") to be visible
+    - waiting for navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd"
+
+15:48:29  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+15:48:29  INFO      browser_manager.py  Starting browser
+15:48:31  INFO      browser_manager.py  Browser started
+15:48:31  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:48:34  INFO      login_service.py  Step 1 complete — email submitted
+15:49:14  INFO      login_service.py  Login successful — dashboard loaded
+15:49:14  INFO      customer_service.py  Searching for customer: Seymour, James M
+15:49:53  INFO      screenshot.py  Screenshot saved: screenshots/20260629_154953_customer_search_failed.png
+15:49:53  ERROR     customer_service.py  Customer search failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".summary-body") to be visible
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd"
+    - locator resolved to 2 elements. Proceeding with the first one: <div class="summary-body leftGroup">…</div>
+    49 × locator resolved to 4 elements. Proceeding with the first one: <div class="summary-body leftGroup">…</div>
+
+15:49:53  ERROR     ams360_workflow.py  Workflow failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".summary-body") to be visible
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd"
+    - locator resolved to 2 elements. Proceeding with the first one: <div class="summary-body leftGroup">…</div>
+    49 × locator resolved to 4 elements. Proceeding with the first one: <div class="summary-body leftGroup">…</div>
+
+15:49:53  INFO      browser_manager.py  Stopping browser
+15:49:53  INFO      browser_manager.py  Browser stopped
+15:49:53  ERROR     main.py  Unhandled error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".summary-body") to be visible
+    - waiting for" https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd" navigation to finish...
+    - navigated to "https://www.ams360.com/v2526431/NextGen/Customer/Detail/646f1a79-56d8-4317-89a8-bb35bdd914dd"
+    - locator resolved to 2 elements. Proceeding with the first one: <div class="summary-body leftGroup">…</div>
+    49 × locator resolved to 4 elements. Proceeding with the first one: <div class="summary-body leftGroup">…</div>
+
+15:51:57  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+15:51:57  INFO      browser_manager.py  Starting browser
+15:51:59  INFO      browser_manager.py  Browser started
+15:51:59  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:52:02  INFO      login_service.py  Step 1 complete — email submitted
+15:52:51  INFO      login_service.py  Login successful — dashboard loaded
+15:52:51  INFO      customer_service.py  Searching for customer: Seymour, James M
+15:53:30  INFO      screenshot.py  Screenshot saved: screenshots/20260629_155330_customer_search_failed.png
+15:53:30  ERROR     customer_service.py  Customer search failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".summary-body") to be visible
+    53 × locator resolved to 4 elements. Proceeding with the first one: <div class="summary-body leftGroup">…</div>
+
+15:53:30  ERROR     ams360_workflow.py  Workflow failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".summary-body") to be visible
+    53 × locator resolved to 4 elements. Proceeding with the first one: <div class="summary-body leftGroup">…</div>
+
+15:53:30  INFO      browser_manager.py  Stopping browser
+15:53:30  INFO      browser_manager.py  Browser stopped
+15:53:30  ERROR     main.py  Unhandled error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".summary-body") to be visible
+    53 × locator resolved to 4 elements. Proceeding with the first one: <div class="summary-body leftGroup">…</div>
+
+15:54:01  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+15:54:01  INFO      browser_manager.py  Starting browser
+15:54:02  INFO      browser_manager.py  Browser started
+15:54:02  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:54:05  INFO      browser_manager.py  Stopping browser
+15:54:28  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+15:54:28  INFO      browser_manager.py  Starting browser
+15:54:29  INFO      browser_manager.py  Browser started
+15:54:29  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:54:33  INFO      login_service.py  Step 1 complete — email submitted
+15:54:47  INFO      login_service.py  Login successful — dashboard loaded
+15:54:47  INFO      customer_service.py  Searching for customer: Seymour, James M
+15:55:11  INFO      policy_service.py  Looking for policy link
+15:55:11  WARNING   policy_service.py  No policy link found on page
+15:55:11  WARNING   ams360_workflow.py  No policy found for 'Seymour, James M' — stopping
+15:55:11  INFO      browser_manager.py  Stopping browser
+15:55:11  INFO      browser_manager.py  Browser stopped
+15:55:49  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+15:55:49  INFO      browser_manager.py  Starting browser
+15:55:51  INFO      browser_manager.py  Browser started
+15:55:51  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:55:55  INFO      login_service.py  Step 1 complete — email submitted
+15:56:34  INFO      login_service.py  Login successful — dashboard loaded
+15:56:34  INFO      customer_service.py  Searching for customer: Seymour, James M
+15:56:43  INFO      policy_service.py  Looking for policy link
+15:56:43  WARNING   policy_service.py  No policy link found on page
+15:56:43  WARNING   ams360_workflow.py  No policy found for 'Seymour, James M' — stopping
+15:56:43  INFO      browser_manager.py  Stopping browser
+15:56:44  INFO      browser_manager.py  Browser stopped
+15:58:08  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+15:58:08  INFO      browser_manager.py  Starting browser
+15:58:09  INFO      browser_manager.py  Browser started
+15:58:09  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:58:13  INFO      login_service.py  Step 1 complete — email submitted
+15:58:54  INFO      login_service.py  Login successful — dashboard loaded
+15:58:54  INFO      customer_service.py  Searching for customer: Seymour, James M
+15:59:03  INFO      policy_service.py  Looking for policy link
+15:59:03  WARNING   policy_service.py  No policy link found on page
+15:59:03  WARNING   ams360_workflow.py  No policy found for 'Seymour, James M' — stopping
+15:59:03  INFO      browser_manager.py  Stopping browser
+15:59:03  INFO      browser_manager.py  Browser stopped
+16:00:27  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+16:00:27  INFO      browser_manager.py  Starting browser
+16:00:28  INFO      browser_manager.py  Browser started
+16:00:28  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+16:00:31  INFO      login_service.py  Step 1 complete — email submitted
+16:01:12  INFO      login_service.py  Login successful — dashboard loaded
+16:01:12  INFO      customer_service.py  Searching for customer: Seymour, James M
+16:01:21  ERROR     ams360_workflow.py  Workflow failed: '_Selectors' object has no attribute 'CUSTOMER_RESULTS_ROW'
+16:01:21  INFO      browser_manager.py  Stopping browser
+16:01:21  INFO      browser_manager.py  Browser stopped
+16:01:21  ERROR     main.py  Unhandled error: '_Selectors' object has no attribute 'CUSTOMER_RESULTS_ROW'
+16:03:37  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+16:03:37  INFO      browser_manager.py  Starting browser
+16:03:38  INFO      browser_manager.py  Browser started
+16:03:38  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+16:04:00  INFO      login_service.py  Step 1 complete — email submitted
+16:04:43  INFO      login_service.py  Login successful — dashboard loaded
+16:04:43  INFO      customer_service.py  Searching for customer: Seymour, James M
+16:04:53  INFO      customer_service.py  Customer results loaded for: Seymour, James M
+16:04:53  INFO      policy_service.py  Looking for policy link
+16:04:53  WARNING   policy_service.py  No policy link found on page
+16:04:53  WARNING   ams360_workflow.py  No policy found for 'Seymour, James M' — stopping
+16:04:53  INFO      browser_manager.py  Stopping browser
+16:04:53  INFO      browser_manager.py  Browser stopped
+16:06:44  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+16:06:44  INFO      browser_manager.py  Starting browser
+16:06:46  INFO      browser_manager.py  Browser started
+16:06:46  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+16:06:49  INFO      login_service.py  Step 1 complete — email submitted
+16:07:30  INFO      login_service.py  Login successful — dashboard loaded
+16:07:30  INFO      customer_service.py  Searching for customer: Seymour, James M
+16:07:42  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+16:07:42  INFO      policy_service.py  Looking for policy link
+16:07:42  INFO      policy_service.py  Policy clicked — desktop window opening
+16:07:42  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+16:07:54  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+16:07:54  INFO      desktop_manager.py  Attaching to window: 'Policy'
+16:07:55  INFO      desktop_manager.py  Window attached
+16:07:55  INFO      desktop_manager.py  Window maximized
+16:07:55  INFO      ams360_workflow.py  Desktop window ready — reading policy data
+16:07:55  INFO      reader.py  Reading policy data from desktop window
+16:07:55  WARNING   reader.py  Could not read control 'PolicyNumberEdit': 'UIAWrapper' object has no attribute 'child_window'
+16:07:55  WARNING   reader.py  Could not read control 'EffectiveDateEdit': 'UIAWrapper' object has no attribute 'child_window'
+16:07:55  WARNING   reader.py  Could not read control 'ExpirationDateEdit': 'UIAWrapper' object has no attribute 'child_window'
+16:07:55  WARNING   reader.py  Could not read control 'PremiumEdit': 'UIAWrapper' object has no attribute 'child_window'
+16:07:55  WARNING   reader.py  Could not read control 'StatusEdit': 'UIAWrapper' object has no attribute 'child_window'
+16:07:55  INFO      reader.py  Policy read: PolicyInfo(policy_number='', effective_date='', expiration_date='', premium='', status='', customer_name='', customer_address='')
+16:07:55  INFO      desktop_manager.py  Window closed
+16:07:55  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+16:07:55  INFO      excel_service.py  Policy data written to output.xlsx
+16:07:55  INFO      ams360_workflow.py  Workflow completed successfully
+16:07:55  INFO      browser_manager.py  Stopping browser
+16:07:55  INFO      browser_manager.py  Browser stopped
+17:03:04  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+17:03:04  INFO      browser_manager.py  Starting browser
+17:03:06  INFO      browser_manager.py  Browser started
+17:03:06  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+17:03:09  INFO      login_service.py  Step 1 complete — email submitted
+17:03:52  INFO      login_service.py  Login successful — dashboard loaded
+17:03:52  INFO      customer_service.py  Searching for customer: Seymour, James M
+17:04:07  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+17:04:07  INFO      policy_service.py  Looking for policy link
+17:04:07  INFO      policy_service.py  Policy clicked — desktop window opening
+17:04:07  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+17:04:16  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+17:04:16  INFO      desktop_manager.py  Attaching to window: 'Policy'
+17:04:17  INFO      desktop_manager.py  Window attached
+17:04:17  INFO      desktop_manager.py  Window maximized
+17:04:17  INFO      ams360_workflow.py  Desktop window ready — reading policy data
+17:04:17  INFO      reader.py  Reading policy data from desktop window
+17:04:17  WARNING   reader.py  Could not read control 'PolicyNumberEdit': 'UIAWrapper' object has no attribute 'child_window'
+17:04:17  WARNING   reader.py  Could not read control 'EffectiveDateEdit': 'UIAWrapper' object has no attribute 'child_window'
+17:04:17  WARNING   reader.py  Could not read control 'ExpirationDateEdit': 'UIAWrapper' object has no attribute 'child_window'
+17:04:17  WARNING   reader.py  Could not read control 'PremiumEdit': 'UIAWrapper' object has no attribute 'child_window'
+17:04:17  WARNING   reader.py  Could not read control 'StatusEdit': 'UIAWrapper' object has no attribute 'child_window'
+17:04:17  INFO      reader.py  Policy read: PolicyInfo(policy_number='', effective_date='', expiration_date='', premium='', status='', customer_name='', customer_address='')
+17:04:17  INFO      desktop_manager.py  Window closed
+17:04:17  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+17:04:17  INFO      excel_service.py  Policy data written to output.xlsx
+17:04:17  INFO      ams360_workflow.py  Workflow completed successfully
+17:04:17  INFO      browser_manager.py  Stopping browser
+17:04:17  INFO      browser_manager.py  Browser stopped
+17:08:22  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+17:08:22  INFO      browser_manager.py  Starting browser
+17:08:24  INFO      browser_manager.py  Browser started
+17:08:24  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+17:08:27  INFO      login_service.py  Step 1 complete — email submitted
+17:09:09  INFO      login_service.py  Login successful — dashboard loaded
+17:09:09  INFO      customer_service.py  Searching for customer: Seymour, James M
+17:09:21  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+17:09:21  INFO      policy_service.py  Looking for policy link
+17:09:21  INFO      policy_service.py  Policy clicked — desktop window opening
+17:09:21  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+17:09:27  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+17:09:27  INFO      desktop_manager.py  Attaching to window: 'Policy'
+17:09:27  INFO      desktop_manager.py  Window attached
+17:09:27  INFO      desktop_manager.py  Window maximized
+17:09:27  INFO      ams360_workflow.py  Desktop window ready — reading policy data
+17:09:27  INFO      reader.py  Reading policy data from desktop window
+17:09:33  WARNING   reader.py  Could not read control 'PolicyNumberEdit': {'auto_id': 'PolicyNumberEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 2820384>, 'backend': 'uia'}
+17:09:38  WARNING   reader.py  Could not read control 'EffectiveDateEdit': {'auto_id': 'EffectiveDateEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 2820384>, 'backend': 'uia'}
+17:09:44  WARNING   reader.py  Could not read control 'ExpirationDateEdit': {'auto_id': 'ExpirationDateEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 2820384>, 'backend': 'uia'}
+17:09:49  WARNING   reader.py  Could not read control 'PremiumEdit': {'auto_id': 'PremiumEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 2820384>, 'backend': 'uia'}
+17:09:55  WARNING   reader.py  Could not read control 'StatusEdit': {'auto_id': 'StatusEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 2820384>, 'backend': 'uia'}
+17:09:55  INFO      reader.py  Policy read: PolicyInfo(policy_number='', effective_date='', expiration_date='', premium='', status='', customer_name='', customer_address='')
+17:09:55  INFO      desktop_manager.py  Window closed
+17:09:55  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+17:09:55  INFO      excel_service.py  Policy data written to output.xlsx
+17:09:55  INFO      ams360_workflow.py  Workflow completed successfully
+17:09:55  INFO      browser_manager.py  Stopping browser
+17:09:55  INFO      browser_manager.py  Browser stopped
+18:37:05  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+18:37:05  INFO      browser_manager.py  Starting browser
+18:37:06  INFO      browser_manager.py  Browser started
+18:37:06  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+18:37:12  INFO      login_service.py  Step 1 complete — email submitted
+18:38:00  INFO      login_service.py  Login successful — dashboard loaded
+18:38:00  INFO      customer_service.py  Searching for customer: Seymour, James M
+18:38:21  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+18:38:21  INFO      policy_service.py  Looking for policy link
+18:38:27  INFO      policy_service.py  Policy clicked — desktop window opening
+18:38:27  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+18:38:36  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+18:38:36  INFO      desktop_manager.py  Attaching to window: 'Policy'
+18:38:36  INFO      desktop_manager.py  Window attached
+18:38:36  INFO      desktop_manager.py  Window maximized
+18:38:36  INFO      ams360_workflow.py  Desktop window ready — reading policy data
+18:38:36  INFO      reader.py  Reading policy data from desktop window
+18:38:42  WARNING   reader.py  Could not read control 'PolicyNumberEdit': {'auto_id': 'PolicyNumberEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 263898>, 'backend': 'uia'}
+18:38:47  WARNING   reader.py  Could not read control 'EffectiveDateEdit': {'auto_id': 'EffectiveDateEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 263898>, 'backend': 'uia'}
+18:38:53  WARNING   reader.py  Could not read control 'ExpirationDateEdit': {'auto_id': 'ExpirationDateEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 263898>, 'backend': 'uia'}
+18:38:59  WARNING   reader.py  Could not read control 'PremiumEdit': {'auto_id': 'PremiumEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 263898>, 'backend': 'uia'}
+18:39:05  WARNING   reader.py  Could not read control 'StatusEdit': {'auto_id': 'StatusEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 263898>, 'backend': 'uia'}
+18:39:05  INFO      reader.py  Policy read: PolicyInfo(policy_number='', effective_date='', expiration_date='', premium='', status='', customer_name='', customer_address='')
+18:39:05  INFO      desktop_manager.py  Window closed
+18:39:05  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+18:39:05  INFO      excel_service.py  Policy data written to output.xlsx
+18:39:05  INFO      ams360_workflow.py  Workflow completed successfully
+18:39:05  INFO      browser_manager.py  Stopping browser
+18:39:05  INFO      browser_manager.py  Browser stopped
+10:40:28  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+10:40:28  INFO      browser_manager.py  Starting browser
+10:40:31  INFO      browser_manager.py  Browser started
+10:40:31  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+10:40:43  INFO      login_service.py  Step 1 complete — email submitted
+10:41:38  INFO      login_service.py  Login successful — dashboard loaded
+10:41:38  INFO      customer_service.py  Searching for customer: Seymour, James M
+10:42:20  INFO      screenshot.py  Screenshot saved: screenshots/20260630_104220_customer_search_failed.png
+10:42:20  ERROR     customer_service.py  Customer search failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("a.policy.launchPolicy.link") to be visible
+
+10:42:20  ERROR     ams360_workflow.py  Workflow failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("a.policy.launchPolicy.link") to be visible
+
+10:42:20  INFO      browser_manager.py  Stopping browser
+10:42:21  INFO      browser_manager.py  Browser stopped
+10:42:21  ERROR     main.py  Unhandled error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("a.policy.launchPolicy.link") to be visible
+
+10:43:32  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+10:43:32  INFO      browser_manager.py  Starting browser
+10:43:34  INFO      browser_manager.py  Browser started
+10:43:34  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+10:43:36  INFO      login_service.py  Step 1 complete — email submitted
+10:44:16  INFO      login_service.py  Login successful — dashboard loaded
+10:44:16  INFO      customer_service.py  Searching for customer: Seymour, James M
+10:44:47  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+10:44:47  INFO      policy_service.py  Looking for policy link
+10:44:47  INFO      policy_service.py  Policy clicked — desktop window opening
+10:44:47  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+10:45:02  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+10:45:02  INFO      desktop_manager.py  Attaching to window: 'Policy'
+10:45:02  INFO      desktop_manager.py  Window attached
+10:45:02  INFO      desktop_manager.py  Window maximized
+10:45:02  INFO      ams360_workflow.py  Desktop window ready — reading policy data
+10:45:02  INFO      reader.py  Reading policy data from desktop window
+10:45:08  WARNING   reader.py  Could not read control 'PolicyNumberEdit': {'auto_id': 'PolicyNumberEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 1377894>, 'backend': 'uia'}
+10:45:14  WARNING   reader.py  Could not read control 'EffectiveDateEdit': {'auto_id': 'EffectiveDateEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 1377894>, 'backend': 'uia'}
+10:45:19  WARNING   reader.py  Could not read control 'ExpirationDateEdit': {'auto_id': 'ExpirationDateEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 1377894>, 'backend': 'uia'}
+10:45:25  WARNING   reader.py  Could not read control 'PremiumEdit': {'auto_id': 'PremiumEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 1377894>, 'backend': 'uia'}
+10:45:30  WARNING   reader.py  Could not read control 'StatusEdit': {'auto_id': 'StatusEdit', 'control_type': 'Edit', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 1377894>, 'backend': 'uia'}
+10:45:30  INFO      reader.py  Policy read: PolicyInfo(policy_number='', effective_date='', expiration_date='', premium='', status='', customer_name='', customer_address='')
+10:45:30  INFO      desktop_manager.py  Waiting 30s before closing window
+10:46:00  INFO      desktop_manager.py  Window closed
+10:46:00  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+10:46:00  INFO      excel_service.py  Policy data written to output.xlsx
+10:46:00  INFO      ams360_workflow.py  Workflow completed successfully
+10:46:00  INFO      browser_manager.py  Stopping browser
+10:46:01  INFO      browser_manager.py  Browser stopped
+11:29:11  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+11:29:11  INFO      browser_manager.py  Starting browser
+11:29:13  INFO      browser_manager.py  Browser started
+11:29:13  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:29:19  INFO      login_service.py  Step 1 complete — email submitted
+11:30:12  INFO      login_service.py  Login successful — dashboard loaded
+11:30:12  INFO      customer_service.py  Searching for customer: Seymour, James M
+11:30:51  INFO      screenshot.py  Screenshot saved: screenshots/20260630_113051_customer_search_failed.png
+11:30:51  ERROR     customer_service.py  Customer search failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("a.policy.launchPolicy.link") to be visible
+
+11:30:51  ERROR     ams360_workflow.py  Workflow failed: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("a.policy.launchPolicy.link") to be visible
+
+11:30:51  INFO      browser_manager.py  Stopping browser
+11:30:51  INFO      browser_manager.py  Browser stopped
+11:30:51  ERROR     main.py  Unhandled error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("a.policy.launchPolicy.link") to be visible
+
+11:33:06  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+11:33:06  INFO      browser_manager.py  Starting browser
+11:33:08  INFO      browser_manager.py  Browser started
+11:33:08  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:33:10  INFO      login_service.py  Step 1 complete — email submitted
+11:33:51  INFO      login_service.py  Login successful — dashboard loaded
+11:33:51  INFO      customer_service.py  Searching for customer: Seymour, James M
+11:34:09  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+11:34:09  INFO      policy_service.py  Looking for policy link
+11:34:09  INFO      policy_service.py  Policy clicked — desktop window opening
+11:34:09  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+11:34:22  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+11:34:22  INFO      desktop_manager.py  Attaching to window: 'Policy'
+11:34:22  INFO      desktop_manager.py  Window attached
+11:34:22  INFO      desktop_manager.py  Window maximized
+11:34:22  INFO      ams360_workflow.py  Desktop window ready — reading policy data
+11:34:22  INFO      reader.py  Reading policy data from desktop window
+11:34:23  INFO      reader.py  Policy read: PolicyInfo(policy_number='ACI04B11019405', effective_date='7/20/2026', expiration_date='7/20/2027', premium='$260.76', status='Active', customer_name='', customer_address='')
+11:34:23  INFO      desktop_manager.py  Waiting 30s before closing window
+11:34:54  INFO      desktop_manager.py  Window closed
+11:34:54  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+11:34:54  INFO      excel_service.py  Policy data written to output.xlsx
+11:34:54  INFO      ams360_workflow.py  Workflow completed successfully
+11:34:54  INFO      browser_manager.py  Stopping browser
+11:34:54  INFO      browser_manager.py  Browser stopped
+11:46:22  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+11:46:22  INFO      browser_manager.py  Starting browser
+11:46:24  INFO      browser_manager.py  Browser started
+11:46:24  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:46:35  INFO      login_service.py  Step 1 complete — email submitted
+11:47:38  INFO      login_service.py  Login successful — dashboard loaded
+11:47:38  INFO      customer_service.py  Searching for customer: Seymour, James M
+11:47:57  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+11:47:57  INFO      policy_service.py  Looking for policy link
+11:47:57  INFO      policy_service.py  Policy clicked — desktop window opening
+11:47:57  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+11:48:10  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+11:48:10  INFO      desktop_manager.py  Attaching to window: 'Policy'
+11:48:10  INFO      desktop_manager.py  Window attached
+11:48:10  INFO      desktop_manager.py  Window maximized
+11:48:10  INFO      ams360_workflow.py  Desktop window ready
+11:48:10  INFO      policy_window.py  Clicking 'New' in Transaction Fees section
+11:48:13  INFO      policy_window.py  Transaction Fee 'New' clicked
+11:48:13  INFO      reader.py  Reading policy data from desktop window
+11:48:17  INFO      reader.py  Policy read: PolicyInfo(policy_number='ACI04B11019405', effective_date='7/20/2026', expiration_date='7/20/2027', premium='$260.76', status='Active', fees='$10.00', annualized_premium='$261.00', bill_method='Direct bill', customer_name='', customer_address='')
+11:48:17  INFO      desktop_manager.py  Waiting 30s before closing window
+11:48:48  INFO      desktop_manager.py  Window closed
+11:48:48  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+11:48:48  INFO      excel_service.py  Policy data written to output.xlsx
+11:48:48  INFO      ams360_workflow.py  Workflow completed successfully
+11:48:48  INFO      browser_manager.py  Stopping browser
+11:48:48  INFO      browser_manager.py  Browser stopped
+12:02:19  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+12:02:19  INFO      browser_manager.py  Starting browser
+12:02:20  INFO      browser_manager.py  Browser started
+12:02:20  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+12:02:27  INFO      login_service.py  Step 1 complete — email submitted
+12:03:09  INFO      login_service.py  Login successful — dashboard loaded
+12:03:09  INFO      customer_service.py  Searching for customer: Seymour, James M
+12:03:27  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+12:03:27  INFO      policy_service.py  Looking for policy link
+12:03:27  INFO      policy_service.py  Policy clicked — desktop window opening
+12:03:27  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+12:03:38  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+12:03:38  INFO      desktop_manager.py  Attaching to window: 'Policy'
+12:03:38  INFO      desktop_manager.py  Window attached
+12:03:38  INFO      desktop_manager.py  Window maximized
+12:03:38  INFO      ams360_workflow.py  Desktop window ready
+12:03:38  INFO      policy_window.py  Clicking 'New' in Transaction Fees section
+12:03:40  INFO      policy_window.py  Transaction Fee 'New' clicked
+12:03:40  INFO      reader.py  Reading policy data from desktop window
+12:03:43  INFO      reader.py  Policy read: PolicyInfo(policy_number='ACI04B11019405', effective_date='7/20/2026', expiration_date='7/20/2027', premium='$260.76', status='Active', fees='$10.00', annualized_premium='$261.00', bill_method='Direct bill', customer_name='', customer_address='')
+12:03:43  INFO      desktop_manager.py  Waiting 30s before closing window
+12:04:13  INFO      desktop_manager.py  Window closed
+12:04:13  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+12:04:13  INFO      excel_service.py  Policy data written to output.xlsx
+12:04:13  INFO      ams360_workflow.py  Workflow completed successfully
+12:04:13  INFO      browser_manager.py  Stopping browser
+12:04:14  INFO      browser_manager.py  Browser stopped
+12:06:41  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+12:06:41  INFO      browser_manager.py  Starting browser
+12:06:42  INFO      browser_manager.py  Browser started
+12:06:42  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+12:06:46  INFO      login_service.py  Step 1 complete — email submitted
+12:07:27  INFO      login_service.py  Login successful — dashboard loaded
+12:07:27  INFO      customer_service.py  Searching for customer: Seymour, James M
+12:07:50  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+12:07:50  INFO      policy_service.py  Looking for policy link
+12:07:50  INFO      policy_service.py  Policy clicked — desktop window opening
+12:07:50  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+12:07:57  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+12:07:57  INFO      desktop_manager.py  Attaching to window: 'Policy'
+12:07:57  INFO      desktop_manager.py  Window attached
+12:07:57  INFO      desktop_manager.py  Window maximized
+12:07:57  INFO      ams360_workflow.py  Desktop window ready
+12:07:57  INFO      policy_window.py  Clicking 'New' in Transaction Fees section
+12:07:59  INFO      policy_window.py  Transaction Fee 'New' clicked
+12:07:59  INFO      reader.py  Reading policy data from desktop window
+12:08:02  INFO      reader.py  Policy read: PolicyInfo(policy_number='ACI04B11019405', effective_date='7/20/2026', expiration_date='7/20/2027', premium='$260.76', status='Active', fees='$10.00', annualized_premium='$261.00', bill_method='Direct bill', customer_name='', customer_address='')
+12:08:02  INFO      desktop_manager.py  Waiting 30s before closing window
+12:08:32  INFO      desktop_manager.py  Window closed
+12:08:32  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+12:08:32  INFO      excel_service.py  Policy data written to output.xlsx
+12:08:32  INFO      ams360_workflow.py  Workflow completed successfully
+12:08:32  INFO      browser_manager.py  Stopping browser
+12:08:33  INFO      browser_manager.py  Browser stopped
+14:33:29  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:33:29  INFO      browser_manager.py  Starting browser
+14:33:31  INFO      browser_manager.py  Browser started
+14:33:31  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:33:34  INFO      login_service.py  Step 1 complete — email submitted
+14:34:16  INFO      login_service.py  Login successful — dashboard loaded
+14:34:16  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:34:31  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+14:34:31  INFO      policy_service.py  Looking for policy link
+14:34:31  INFO      policy_service.py  Policy clicked — desktop window opening
+14:34:31  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+14:34:37  INFO      desktop_manager.py  Window found: Policy
+14:34:37  INFO      desktop_manager.py  Attaching to window: 'Policy'
+14:34:37  ERROR     ams360_workflow.py  Workflow failed: There are 2 elements that match the criteria {'title_re': 'Policy', 'backend': 'uia', 'visible_only': False}
+14:34:37  INFO      browser_manager.py  Stopping browser
+14:34:38  INFO      browser_manager.py  Browser stopped
+14:34:38  ERROR     main.py  Unhandled error: There are 2 elements that match the criteria {'title_re': 'Policy', 'backend': 'uia', 'visible_only': False}
+14:35:33  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+14:35:33  INFO      browser_manager.py  Starting browser
+14:35:34  INFO      browser_manager.py  Browser started
+14:35:34  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:35:38  INFO      login_service.py  Step 1 complete — email submitted
+14:36:22  INFO      login_service.py  Login successful — dashboard loaded
+14:36:22  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:36:46  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+14:36:46  INFO      policy_service.py  Looking for policy link
+14:36:47  INFO      policy_service.py  Policy clicked — desktop window opening
+14:36:47  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+14:36:55  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+14:36:55  INFO      desktop_manager.py  Attaching to window: 'Policy'
+14:36:56  INFO      desktop_manager.py  Window attached
+14:36:56  INFO      desktop_manager.py  Window maximized
+14:36:56  INFO      ams360_workflow.py  Desktop window ready
+14:36:56  INFO      policy_window.py  Clicking 'New' in Transaction Fees section
+14:36:58  INFO      policy_window.py  'New' clicked
+14:36:58  INFO      policy_window.py  Waiting 10s for editable row to load...
+14:37:08  INFO      policy_window.py  Setting Charge Type to: 'Agency Fee'
+14:37:16  INFO      policy_window.py  Charge Type typed via keyboard: 'Agency Fee'
+14:37:16  INFO      policy_window.py  Pressing Tab twice
+14:37:16  INFO      policy_window.py  Waiting 10s...
+14:37:26  INFO      policy_window.py  Clicking 'Cancel'
+14:37:27  INFO      policy_window.py  Cancel clicked
+14:37:27  INFO      reader.py  Reading policy data from desktop window
+14:37:31  INFO      reader.py  Policy read: PolicyInfo(policy_number='ACI04B11019405', effective_date='7/20/2026', expiration_date='7/20/2027', premium='$260.76', status='Active', fees='$10.00', annualized_premium='$261.00', bill_method='Direct bill', customer_name='', customer_address='')
+14:37:31  INFO      desktop_manager.py  Waiting 30s before closing window
+14:38:01  INFO      desktop_manager.py  Window closed
+14:38:01  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+14:38:01  INFO      excel_service.py  Policy data written to output.xlsx
+14:38:01  INFO      ams360_workflow.py  Workflow completed successfully
+14:38:01  INFO      browser_manager.py  Stopping browser
+14:38:01  INFO      browser_manager.py  Browser stopped
+15:09:59  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+15:09:59  INFO      browser_manager.py  Starting browser
+15:10:03  INFO      browser_manager.py  Browser started
+15:10:03  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:10:06  INFO      login_service.py  Step 1 complete — email submitted
+15:10:47  INFO      login_service.py  Login successful — dashboard loaded
+15:10:47  INFO      customer_service.py  Searching for customer: Seymour, James M
+15:11:47  INFO      screenshot.py  Screenshot saved: screenshots/20260630_151147_customer_search_failed.png
+15:11:47  ERROR     customer_service.py  Customer search failed: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/Home**" until 'load'
+  navigated to "https://www.ams360.com/sso/?skipdefault=1"
+  navigated to "https://www.ams360.com/v2526431/checkinstall.aspx?rauth=0&ReturnUrl=https://www.ams360.com/v2526431/"
+============================================================
+15:11:47  ERROR     ams360_workflow.py  Workflow failed: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/Home**" until 'load'
+  navigated to "https://www.ams360.com/sso/?skipdefault=1"
+  navigated to "https://www.ams360.com/v2526431/checkinstall.aspx?rauth=0&ReturnUrl=https://www.ams360.com/v2526431/"
+============================================================
+15:11:47  INFO      browser_manager.py  Stopping browser
+15:11:47  INFO      browser_manager.py  Browser stopped
+15:11:47  ERROR     main.py  Unhandled error: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation to "**/Home**" until 'load'
+  navigated to "https://www.ams360.com/sso/?skipdefault=1"
+  navigated to "https://www.ams360.com/v2526431/checkinstall.aspx?rauth=0&ReturnUrl=https://www.ams360.com/v2526431/"
+============================================================
+15:11:54  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+15:11:54  INFO      browser_manager.py  Starting browser
+15:11:56  INFO      browser_manager.py  Browser started
+15:11:56  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:11:59  INFO      login_service.py  Step 1 complete — email submitted
+15:12:39  INFO      login_service.py  Login successful — dashboard loaded
+15:12:39  INFO      customer_service.py  Searching for customer: Seymour, James M
+15:12:59  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+15:12:59  INFO      policy_service.py  Looking for policy link
+15:12:59  INFO      policy_service.py  Policy clicked — desktop window opening
+15:12:59  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+15:13:12  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+15:13:12  INFO      desktop_manager.py  Attaching to window: 'Policy'
+15:13:12  INFO      desktop_manager.py  Window attached
+15:13:12  INFO      desktop_manager.py  Window maximized
+15:13:12  INFO      ams360_workflow.py  Desktop window ready
+15:13:12  INFO      policy_window.py  Clicking 'New' in Transaction Fees section
+15:13:14  INFO      policy_window.py  'New' clicked
+15:13:14  INFO      policy_window.py  Waiting 10s for edit form to load...
+15:13:24  INFO      policy_window.py  Setting Charge Type: 'Agency Fee'
+15:13:26  INFO      policy_window.py  Charge Type set: 'Agency Fee'
+15:13:26  INFO      policy_window.py  Setting Amount: '10.00'
+15:13:27  INFO      policy_window.py  Amount set: '10.00'
+15:13:27  INFO      policy_window.py  Waiting 10s...
+15:13:37  INFO      policy_window.py  Clicking 'Cancel'
+15:13:38  INFO      policy_window.py  Cancel clicked
+15:13:38  INFO      reader.py  Reading policy data from desktop window
+15:13:42  INFO      reader.py  Policy read: PolicyInfo(policy_number='ACI04B11019405', effective_date='7/20/2026', expiration_date='7/20/2027', premium='$260.76', status='Active', fees='$10.00', annualized_premium='$261.00', bill_method='Direct bill', customer_name='', customer_address='')
+15:13:42  INFO      desktop_manager.py  Waiting 30s before closing window
+15:14:12  INFO      desktop_manager.py  Window closed
+15:14:12  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+15:14:12  INFO      excel_service.py  Policy data written to output.xlsx
+15:14:12  INFO      ams360_workflow.py  Workflow completed successfully
+15:14:12  INFO      browser_manager.py  Stopping browser
+15:14:12  INFO      browser_manager.py  Browser stopped
+16:10:01  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+16:10:01  INFO      browser_manager.py  Starting browser
+16:10:03  INFO      browser_manager.py  Browser started
+16:10:03  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+16:10:15  INFO      login_service.py  Step 1 complete — email submitted
+16:11:02  INFO      login_service.py  Login successful — dashboard loaded
+16:11:02  INFO      customer_service.py  Searching for customer: Seymour, James M
+16:11:26  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+16:11:26  INFO      policy_service.py  Looking for policy link
+16:11:26  INFO      policy_service.py  Policy clicked — desktop window opening
+16:11:26  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+16:11:42  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+16:11:42  INFO      desktop_manager.py  Attaching to window: 'Policy'
+16:11:42  INFO      desktop_manager.py  Window attached
+16:11:42  INFO      desktop_manager.py  Window maximized
+16:11:42  INFO      ams360_workflow.py  Desktop window ready
+16:11:42  INFO      policy_window.py  Clicking 'New' in Transaction Fees section
+16:11:44  INFO      policy_window.py  'New' clicked
+16:11:44  INFO      policy_window.py  Waiting 10s for edit form to load...
+16:11:54  INFO      policy_window.py  Setting Charge Type: 'Agency Fee'
+16:11:56  INFO      policy_window.py  Charge Type set: 'Agency Fee'
+16:11:56  INFO      policy_window.py  Setting Amount: '10.00'
+16:11:57  INFO      policy_window.py  Amount set: '10.00'
+16:11:57  INFO      policy_window.py  Waiting 10s...
+16:12:07  INFO      policy_window.py  Clicking 'Cancel'
+16:12:08  INFO      policy_window.py  Cancel clicked
+16:12:08  INFO      reader.py  Reading policy data from desktop window
+16:12:11  INFO      reader.py  Policy read: PolicyInfo(policy_number='ACI04B11019405', effective_date='7/20/2026', expiration_date='7/20/2027', premium='$260.76', status='Active', fees='$10.00', annualized_premium='$261.00', bill_method='Direct bill', customer_name='', customer_address='')
+16:12:11  INFO      desktop_manager.py  Waiting 30s before closing window
+16:12:47  WARNING   desktop_manager.py  Error closing window: {'title_re': 'Policy', 'backend': 'uia', 'process': 7936}
+16:12:47  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+16:12:47  INFO      excel_service.py  Policy data written to output.xlsx
+16:12:47  INFO      ams360_workflow.py  Workflow completed successfully
+16:12:47  INFO      browser_manager.py  Stopping browser
+16:12:47  INFO      browser_manager.py  Browser stopped
+10:38:08  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+10:38:08  INFO      browser_manager.py  Starting browser
+10:38:12  INFO      browser_manager.py  Browser started
+10:38:12  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+10:38:14  INFO      login_service.py  Step 1 complete — email submitted
+10:38:56  INFO      login_service.py  Login successful — dashboard loaded
+10:38:56  INFO      customer_service.py  Searching for customer: Seymour, James M
+10:39:12  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+10:39:12  INFO      policy_service.py  Looking for policy link
+10:39:13  INFO      policy_service.py  Policy clicked — desktop window opening
+10:39:13  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+10:39:27  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+10:39:27  INFO      desktop_manager.py  Attaching to window: 'Policy'
+10:39:27  INFO      desktop_manager.py  Window attached
+10:39:27  INFO      desktop_manager.py  Window maximized
+10:39:27  INFO      ams360_workflow.py  Desktop window ready
+10:39:27  INFO      policy_window.py  Clicking 'New' in Transaction Fees section
+10:39:29  INFO      policy_window.py  'New' clicked
+10:39:29  INFO      policy_window.py  Waiting 10s for edit form to load...
+10:39:39  INFO      policy_window.py  Setting Charge Type: 'Agency Fee'
+10:39:41  INFO      policy_window.py  Charge Type set: 'Agency Fee'
+10:39:41  INFO      policy_window.py  Setting Amount: '10.00'
+10:39:42  INFO      policy_window.py  Amount set: '10.00'
+10:39:42  INFO      policy_window.py  Waiting 10s...
+10:39:52  INFO      policy_window.py  Clicking 'Cancel'
+10:39:53  INFO      policy_window.py  Cancel clicked
+10:39:53  INFO      reader.py  Reading policy data from desktop window
+10:39:57  INFO      reader.py  Policy read: PolicyInfo(policy_number='ACI04B11019405', effective_date='7/20/2026', expiration_date='7/20/2027', premium='$260.76', status='Active', fees='$10.00', annualized_premium='$261.00', bill_method='Direct bill', customer_name='', customer_address='')
+10:39:57  INFO      desktop_manager.py  Waiting 30s before closing window
+10:40:27  INFO      desktop_manager.py  Window closed
+10:40:27  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+10:40:27  INFO      excel_service.py  Policy data written to output.xlsx
+10:40:27  INFO      ams360_workflow.py  Workflow completed successfully
+10:40:27  INFO      browser_manager.py  Stopping browser
+10:40:28  INFO      browser_manager.py  Browser stopped
+11:01:05  INFO      ams360_workflow.py  Starting AMS360 workflow for customer: Seymour, James M
+11:01:05  INFO      browser_manager.py  Starting browser
+11:01:07  INFO      browser_manager.py  Browser started
+11:01:07  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:01:10  INFO      login_service.py  Step 1 complete — email submitted
+11:01:52  INFO      login_service.py  Login successful — dashboard loaded
+11:01:52  INFO      customer_service.py  Searching for customer: Seymour, James M
+11:02:09  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+11:02:09  INFO      policy_service.py  Looking for policy link
+11:02:09  INFO      policy_service.py  Policy clicked — desktop window opening
+11:02:09  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+11:02:19  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+11:02:19  INFO      desktop_manager.py  Attaching to window: 'Policy'
+11:02:19  INFO      desktop_manager.py  Window attached
+11:02:19  INFO      desktop_manager.py  Window maximized
+11:02:19  INFO      ams360_workflow.py  Desktop window ready
+11:02:19  INFO      policy_window.py  Clicking 'New' in Transaction Fees section
+11:02:22  INFO      policy_window.py  'New' clicked
+11:02:22  INFO      policy_window.py  Waiting 10s for edit form to load...
+11:02:32  INFO      policy_window.py  Setting Charge Type: 'Agency Fee'
+11:02:34  INFO      policy_window.py  Charge Type set: 'Agency Fee'
+11:02:34  INFO      policy_window.py  Setting Amount: '10.00'
+11:02:35  INFO      policy_window.py  Amount set: '10.00'
+11:02:35  INFO      policy_window.py  Waiting 10s...
+11:02:45  INFO      policy_window.py  Clicking 'Cancel'
+11:02:46  INFO      policy_window.py  Cancel clicked
+11:02:46  INFO      reader.py  Reading policy data from desktop window
+11:02:50  INFO      reader.py  Policy read: PolicyInfo(policy_number='ACI04B11019405', effective_date='7/20/2026', expiration_date='7/20/2027', premium='$260.76', status='Active', fees='$10.00', annualized_premium='$261.00', bill_method='Direct bill', customer_name='', customer_address='')
+11:02:50  INFO      desktop_manager.py  Waiting 30s before closing window
+11:03:20  INFO      desktop_manager.py  Window closed
+11:03:20  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+11:03:20  INFO      excel_service.py  Policy data written to output.xlsx
+11:03:20  INFO      ams360_workflow.py  Workflow completed successfully
+11:03:20  INFO      browser_manager.py  Stopping browser
+11:03:21  INFO      browser_manager.py  Browser stopped
+13:02:41  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M
+13:02:41  INFO      browser_manager.py  Starting browser
+13:02:43  INFO      browser_manager.py  Browser started
+13:02:43  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+13:02:50  INFO      login_service.py  Step 1 complete — email submitted
+13:03:34  INFO      login_service.py  Login successful — dashboard loaded
+13:03:34  INFO      customer_service.py  Searching for customer: Seymour, James M
+13:03:52  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+13:03:52  INFO      policy_service.py  Looking for policy link
+13:03:52  INFO      policy_service.py  Policy clicked — desktop window opening
+13:03:52  INFO      orchestrator.py  Desktop orchestrator: starting policy flow
+13:03:52  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+13:04:02  INFO      desktop_manager.py  Window found: Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]
+13:04:02  INFO      desktop_manager.py  Attaching to window: 'Policy'
+13:04:02  INFO      desktop_manager.py  Window attached
+13:04:02  INFO      desktop_manager.py  Window maximized
+13:04:02  INFO      basic_info.py  Opening Basic Policy Information section
+13:04:04  INFO      basic_info.py  Basic Policy Information section opened
+13:04:05  INFO      session.py  Policy period: Annual → Status: Active
+13:04:05  INFO      basic_info.py  Setting Status: 'Active'
+13:04:11  WARNING   basic_info.py  Could not set Status 'Active': {'auto_id': 'TODO_STATUS_AUTO_ID', 'control_type': 'ComboBox', 'top_level_only': False, 'parent': <uia_element_info.UIAElementInfo - 'Policy - James M Seymour - ACI04B11019405 - (7/20/2026 - 7/20/2027) - [Policy Information]', WindowsForms10.Window.8.app.0.30495d1_r6_ad1, 592824>, 'backend': 'uia'}
+13:04:11  INFO      fee_handler.py  Clicking 'New' in Transaction Fees section
+13:04:14  INFO      fee_handler.py  Waiting 10s for edit form to load...
+13:04:24  INFO      fee_handler.py  Setting Charge Type: 'Agency Fee'
+13:04:27  INFO      fee_handler.py  Setting Amount: '10.00'
+13:04:29  INFO      fee_handler.py  Checking 'Add full amount to first installment'
+13:04:31  WARNING   fee_handler.py  Could not check 'Add full amount to first installment': Neither GUI element (wrapper) nor wrapper method 'check' were found (typo?)
+13:04:31  INFO      fee_handler.py  Selecting 'Don't Include in Premium Totals'
+13:04:33  INFO      fee_handler.py  Waiting 10s...
+13:04:43  INFO      fee_handler.py  Clicking Cancel
+13:04:47  INFO      fee_handler.py  Fee entry cancelled
+13:04:47  INFO      reader.py  Reading policy data from window
+13:04:54  INFO      reader.py  Policy read — period: Annual, status: Active
+13:04:54  INFO      desktop_manager.py  Waiting 30s before closing window
+13:05:24  INFO      desktop_manager.py  Window closed
+13:05:24  INFO      orchestrator.py  Desktop orchestrator: policy flow complete
+13:05:24  INFO      excel_service.py  Writing policy to Excel: output.xlsx
+13:05:24  INFO      excel_service.py  Policy data written to output.xlsx
+13:05:24  INFO      ams360_workflow.py  Workflow completed successfully
+13:05:24  INFO      browser_manager.py  Stopping browser
+13:05:25  INFO      browser_manager.py  Browser stopped

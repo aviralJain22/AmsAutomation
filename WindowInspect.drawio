@@ -1,0 +1,257 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Xko__83jnbFhnNePx1i_" name="Page-1">
+    <mxGraphModel dx="1172" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#1E293B;" value="WindowInspect — AMS360 Automation Architecture" vertex="1">
+          <mxGeometry height="50" width="1300" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="main_py" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;fontColor=#FFFFFF;strokeColor=#0F172A;fontSize=14;fontStyle=1;" value="main.py" vertex="1">
+          <mxGeometry height="55" width="250" x="825" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ams360_workflow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#334155;fontColor=#FFFFFF;strokeColor=#1E293B;fontSize=12;fontStyle=1;" value="AMS360Workflow&#xa;workflow/ams360_workflow.py" vertex="1">
+          <mxGeometry height="60" width="450" x="725" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e_main_workflow" edge="1" parent="1" source="main_py" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ams360_workflow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="browser_group" parent="1" style="swimlane;startSize=35;fillColor=#EFF6FF;strokeColor=#1D4ED8;fontStyle=1;fontSize=13;fontColor=#1D4ED8;rounded=1;" value="Browser Layer (Playwright / Chromium)" vertex="1">
+          <mxGeometry height="430" width="470" x="30" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="browser_manager" parent="browser_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1D4ED8;fontColor=#FFFFFF;strokeColor=#1E40AF;fontSize=11;" value="BrowserManager&#xa;browser/browser_manager.py" vertex="1">
+          <mxGeometry height="50" width="210" x="20" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="login_service" parent="browser_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2563EB;fontColor=#FFFFFF;strokeColor=#1D4ED8;fontSize=11;" value="LoginService&#xa;browser/login_service.py" vertex="1">
+          <mxGeometry height="50" width="210" x="20" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="customer_service" parent="browser_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2563EB;fontColor=#FFFFFF;strokeColor=#1D4ED8;fontSize=11;" value="CustomerService&#xa;browser/customer_service.py" vertex="1">
+          <mxGeometry height="50" width="210" x="20" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="policy_service" parent="browser_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2563EB;fontColor=#FFFFFF;strokeColor=#1D4ED8;fontSize=11;" value="PolicyService&#xa;browser/policy_service.py" vertex="1">
+          <mxGeometry height="50" width="210" x="20" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="ams360_web" parent="browser_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;fontColor=#1E3A8A;strokeColor=#93C5FD;fontSize=11;dashed=1;" value="AMS360 Web App&#xa;(Chromium)" vertex="1">
+          <mxGeometry height="200" width="185" x="255" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="screenshots_note" parent="browser_group" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#2563EB;fontStyle=2;" value="screenshots/ on failure" vertex="1">
+          <mxGeometry height="30" width="210" x="20" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bm_ls" edge="1" parent="browser_group" source="browser_manager" style="edgeStyle=orthogonalEdgeStyle;" target="login_service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ls_cs" edge="1" parent="browser_group" source="login_service" style="edgeStyle=orthogonalEdgeStyle;" target="customer_service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cs_ps" edge="1" parent="browser_group" source="customer_service" style="edgeStyle=orthogonalEdgeStyle;" target="policy_service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bm_web" edge="1" parent="browser_group" source="browser_manager" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;" target="ams360_web">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ps_web" edge="1" parent="browser_group" source="policy_service" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" target="ams360_web">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop_group" parent="1" style="swimlane;startSize=35;fillColor=#ECFDF5;strokeColor=#065F46;fontStyle=1;fontSize=13;fontColor=#065F46;rounded=1;" value="Desktop Layer (pywinauto / Windows UI Automation)" vertex="1">
+          <mxGeometry height="430" width="740" x="540" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop_orchestrator" parent="desktop_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#065F46;fontColor=#FFFFFF;strokeColor=#064E3B;fontSize=11;" value="DesktopOrchestrator&#xa;desktop/orchestrator.py" vertex="1">
+          <mxGeometry height="50" width="210" x="20" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop_manager" parent="desktop_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#047857;fontColor=#FFFFFF;strokeColor=#065F46;fontSize=11;" value="DesktopManager&#xa;desktop/desktop_manager.py" vertex="1">
+          <mxGeometry height="50" width="210" x="20" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="policy_session" parent="desktop_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#047857;fontColor=#FFFFFF;strokeColor=#065F46;fontSize=11;" value="PolicyWindowSession&#xa;desktop/policy_window/session.py" vertex="1">
+          <mxGeometry height="50" width="210" x="20" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="basic_info" parent="desktop_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10B981;fontColor=#FFFFFF;strokeColor=#047857;fontSize=10;" value="BasicInfo&#xa;policy_window/basic_info.py&#xa;Set Status field" vertex="1">
+          <mxGeometry height="55" width="185" x="270" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fee_handler" parent="desktop_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10B981;fontColor=#FFFFFF;strokeColor=#047857;fontSize=10;" value="FeeHandler&#xa;policy_window/fee_handler.py&#xa;Add transaction fee" vertex="1">
+          <mxGeometry height="55" width="185" x="270" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="policy_reader" parent="desktop_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#10B981;fontColor=#FFFFFF;strokeColor=#047857;fontSize=10;" value="PolicyReader&#xa;policy_window/reader.py&#xa;Read policy fields" vertex="1">
+          <mxGeometry height="55" width="185" x="270" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ams360_desktop" parent="desktop_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D1FAE5;fontColor=#064E3B;strokeColor=#6EE7B7;fontSize=11;dashed=1;" value="AMS360 Desktop App&#xa;(Windows / UIA backend)" vertex="1">
+          <mxGeometry height="210" width="210" x="500" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="receipt_placeholder" parent="desktop_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FDF4;fontColor=#6B7280;strokeColor=#D1D5DB;fontSize=10;dashed=1;" value="receipt_window/ (Phase 2)" vertex="1">
+          <mxGeometry height="45" width="210" x="20" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="e_do_dm" edge="1" parent="desktop_group" source="desktop_orchestrator" style="edgeStyle=orthogonalEdgeStyle;" target="desktop_manager">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_do_ps" edge="1" parent="desktop_group" source="desktop_orchestrator" style="edgeStyle=orthogonalEdgeStyle;" target="policy_session">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ps_bi" edge="1" parent="desktop_group" source="policy_session" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="basic_info">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ps_fh" edge="1" parent="desktop_group" source="policy_session" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fee_handler">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ps_pr" edge="1" parent="desktop_group" source="policy_session" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="policy_reader">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_dm_ams" edge="1" parent="desktop_group" source="desktop_manager" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;" target="ams360_desktop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_bi_ams" edge="1" parent="desktop_group" source="basic_info" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ams360_desktop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fh_ams" edge="1" parent="desktop_group" source="fee_handler" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ams360_desktop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pr_ams" edge="1" parent="desktop_group" source="policy_reader" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" target="ams360_desktop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="excel_group" parent="1" style="swimlane;startSize=35;fillColor=#FFFBEB;strokeColor=#B45309;fontStyle=1;fontSize=13;fontColor=#B45309;rounded=1;" value="Data Layer (openpyxl)" vertex="1">
+          <mxGeometry height="430" width="420" x="1320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="customer_info_model" parent="excel_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;fontSize=11;" value="CustomerInfo&#xa;excel/models.py" vertex="1">
+          <mxGeometry height="50" width="180" x="20" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fee_info_model" parent="excel_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D97706;fontColor=#FFFFFF;strokeColor=#B45309;fontSize=11;" value="FeeInfo&#xa;excel/models.py" vertex="1">
+          <mxGeometry height="50" width="180" x="20" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="policy_info_model" parent="excel_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B45309;fontColor=#FFFFFF;strokeColor=#92400E;fontSize=11;fontStyle=1;" value="PolicyInfo&#xa;excel/models.py" vertex="1">
+          <mxGeometry height="50" width="180" x="20" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="excel_service" parent="excel_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#92400E;fontColor=#FFFFFF;strokeColor=#78350F;fontSize=11;" value="ExcelService&#xa;excel/excel_service.py" vertex="1">
+          <mxGeometry height="50" width="180" x="20" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="env_source" parent="excel_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;fontColor=#92400E;strokeColor=#FCD34D;fontSize=10;dashed=1;" value=".env source&#xa;(Phase 1)" vertex="1">
+          <mxGeometry height="80" width="155" x="225" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="output_xlsx" parent="excel_group" style="shape=mxgraph.flowchart.document;whiteSpace=wrap;html=1;fillColor=#FEF3C7;fontColor=#92400E;strokeColor=#FCD34D;fontSize=11;" value="output.xlsx" vertex="1">
+          <mxGeometry height="80" width="155" x="225" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2_note" parent="excel_group" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#B45309;fontStyle=2;" value="Phase 2: loop over input Excel rows" vertex="1">
+          <mxGeometry height="30" width="390" x="10" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ci_env" edge="1" parent="excel_group" source="customer_info_model" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="env_source">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fi_env" edge="1" parent="excel_group" source="fee_info_model" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;" target="env_source">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ci_es" edge="1" parent="excel_group" source="customer_info_model" style="edgeStyle=orthogonalEdgeStyle;" target="excel_service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fi_es" edge="1" parent="excel_group" source="fee_info_model" style="edgeStyle=orthogonalEdgeStyle;" target="excel_service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pi_es" edge="1" parent="excel_group" source="policy_info_model" style="edgeStyle=orthogonalEdgeStyle;" target="excel_service">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_es_out" edge="1" parent="excel_group" source="excel_service" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="output_xlsx">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="config_group" parent="1" style="swimlane;startSize=30;fillColor=#F5F3FF;strokeColor=#4C1D95;fontStyle=1;fontSize=12;fontColor=#4C1D95;rounded=1;" value="Config Layer" vertex="1">
+          <mxGeometry height="150" width="560" x="30" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="settings_py" parent="config_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4C1D95;fontColor=#FFFFFF;strokeColor=#3B0764;fontSize=10;" value="settings.py&#xa;Pydantic BaseSettings" vertex="1">
+          <mxGeometry height="50" width="160" x="15" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="constants_py" parent="config_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6D28D9;fontColor=#FFFFFF;strokeColor=#4C1D95;fontSize=10;" value="constants.py&#xa;Timeouts, Selectors, Titles" vertex="1">
+          <mxGeometry height="50" width="160" x="195" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="env_file" parent="config_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7C3AED;fontColor=#FFFFFF;strokeColor=#6D28D9;fontSize=10;" value=".env&#xa;Credentials, URLs, Params" vertex="1">
+          <mxGeometry height="50" width="160" x="375" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="helpers_group" parent="1" style="swimlane;startSize=30;fillColor=#F9FAFB;strokeColor=#374151;fontStyle=1;fontSize=12;fontColor=#374151;rounded=1;" value="Helpers Layer" vertex="1">
+          <mxGeometry height="150" width="700" x="630" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="logger_h" parent="helpers_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#374151;fontColor=#FFFFFF;strokeColor=#1F2937;fontSize=10;" value="logger.py" vertex="1">
+          <mxGeometry height="50" width="115" x="15" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="screenshot_h" parent="helpers_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4B5563;fontColor=#FFFFFF;strokeColor=#374151;fontSize=10;" value="screenshot.py" vertex="1">
+          <mxGeometry height="50" width="115" x="148" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="waits_h" parent="helpers_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4B5563;fontColor=#FFFFFF;strokeColor=#374151;fontSize=10;" value="waits.py" vertex="1">
+          <mxGeometry height="50" width="115" x="281" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="retry_h" parent="helpers_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4B5563;fontColor=#FFFFFF;strokeColor=#374151;fontSize=10;" value="retry.py" vertex="1">
+          <mxGeometry height="50" width="115" x="414" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="date_h" parent="helpers_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4B5563;fontColor=#FFFFFF;strokeColor=#374151;fontSize=10;" value="date_helper.py" vertex="1">
+          <mxGeometry height="50" width="128" x="547" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tools_group" parent="1" style="swimlane;startSize=30;fillColor=#FFF1F2;strokeColor=#BE123C;fontStyle=1;fontSize=12;fontColor=#BE123C;rounded=1;" value="Dev Tools" vertex="1">
+          <mxGeometry height="150" width="360" x="1380" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="inspect_window" parent="tools_group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BE123C;fontColor=#FFFFFF;strokeColor=#9F1239;fontSize=10;" value="tools/inspect_window.py&#xa;Discover pywinauto control IDs&#xa;Modes: dump / combo / basic / search" vertex="1">
+          <mxGeometry height="75" width="330" x="15" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_wf_browser" edge="1" parent="1" source="ams360_workflow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.15;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontStyle=1;" target="browser_group" value="1. launch &amp; login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_wf_desktop" edge="1" parent="1" source="ams360_workflow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontStyle=1;" target="desktop_group" value="3. run policy flow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_wf_excel" edge="1" parent="1" source="ams360_workflow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.85;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontStyle=1;" target="excel_group" value="4. write output">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ps_opens_desktop" edge="1" parent="1" source="policy_service" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.65;entryDx=0;entryDy=0;fontSize=10;fontColor=#374151;" target="desktop_group" value="2. click policy → opens window">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pr_policy_info" edge="1" parent="1" source="policy_reader" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" target="policy_info_model" value="returns PolicyInfo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cfg_browser" edge="1" parent="1" source="config_group" style="dashed=1;exitX=0.15;exitY=0;exitDx=0;exitDy=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;opacity=40;endArrow=open;endFill=0;" target="browser_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cfg_desktop" edge="1" parent="1" source="config_group" style="dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.2;entryY=1;entryDx=0;entryDy=0;opacity=40;endArrow=open;endFill=0;" target="desktop_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_helpers_browser" edge="1" parent="1" source="helpers_group" style="dashed=1;exitX=0.1;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;opacity=40;endArrow=open;endFill=0;" target="browser_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_helpers_desktop" edge="1" parent="1" source="helpers_group" style="dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=1;entryDx=0;entryDy=0;opacity=40;endArrow=open;endFill=0;" target="desktop_group">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tools_desktop" edge="1" parent="1" source="tools_group" style="dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.95;entryY=1;entryDx=0;entryDy=0;opacity=40;endArrow=open;endFill=0;fontSize=9;fontColor=#BE123C;" target="desktop_group" value="dev-time inspection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=11;fontColor=#1E293B;" value="Legend" vertex="1">
+          <mxGeometry height="25" width="80" x="1390" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_solid" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#374151;" value="data / control flow" vertex="1">
+          <mxGeometry height="20" width="150" x="1420" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_dashed" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#374151;" value="interaction / optional" vertex="1">
+          <mxGeometry height="20" width="150" x="1420" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_solid_line" edge="1" parent="1" style="endArrow=block;endFill=1;strokeColor=#374151;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1390" y="1010" as="sourcePoint" />
+            <mxPoint x="1415" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend_dashed_line" edge="1" parent="1" style="endArrow=open;endFill=0;strokeColor=#374151;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="1030" as="sourcePoint" />
+            <mxPoint x="1415" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9W4fGVsaddSA-swDG7dr-3" edge="1" parent="1" source="9W4fGVsaddSA-swDG7dr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9W4fGVsaddSA-swDG7dr-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9W4fGVsaddSA-swDG7dr-5" edge="1" parent="1" source="9W4fGVsaddSA-swDG7dr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9W4fGVsaddSA-swDG7dr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9W4fGVsaddSA-swDG7dr-1" parent="1" style="whiteSpace=wrap;html=1;" value="main" vertex="1">
+          <mxGeometry height="60" width="120" x="770" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="9W4fGVsaddSA-swDG7dr-2" parent="1" style="whiteSpace=wrap;html=1;" value="Browser" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="9W4fGVsaddSA-swDG7dr-4" parent="1" style="whiteSpace=wrap;html=1;" value="Desktop" vertex="1">
+          <mxGeometry height="60" width="120" x="1050" y="1390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
