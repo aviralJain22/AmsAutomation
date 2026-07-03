@@ -20,21 +20,39 @@ class AMS360Workflow:
     def run(self) -> None:
         customer = self.excel_service.get_customer()
         fee = self.excel_service.get_fee_info()
-        logger.info(f"Starting workflow for customer: {customer.name}")
+        instruction = self.excel_service.get_policy_instruction()
+        logger.info(f"Starting workflow for customer: {customer.name} | action: {instruction.action}")
 
         page = self.browser_manager.start()
         try:
             LoginService(page).login()
             CustomerService(page).search(customer.name)
 
-            policy_found = PolicyService(page).click_policy()
-            if not policy_found:
-                logger.warning(f"No policy found for '{customer.name}' — stopping")
+
+            # Legacy: click first policy link without grid matching
+            # policy_found = PolicyService(page).click_policy()
+            # if not policy_found:
+            #     logger.warning(f"No policy found for '{customer.name}' — stopping")
+            #     return
+
+            action_taken = PolicyService(page).perform_grid_action(
+                policy_number=instruction.policy_number,
+                effective_date=instruction.effective_date,
+                expiration_date=instruction.expiration_date,
+                action=instruction.action,
+            )
+            if not action_taken:
+                logger.warning(
+                    f"Policy {instruction.policy_number!r} not found in grid — stopping"
+                )
                 return
 
-            policy_info = self.desktop.run_policy_flow(customer=customer, fee=fee)
-            
-            self.excel_service.write_policy(policy_info)
+            policy_info = self.desktop.run_flow(
+                action=instruction.action, customer=customer, fee=fee, instruction=instruction
+            )
+
+            if policy_info is not None:
+                self.excel_service.write_policy(policy_info)
 
             logger.info("Workflow completed successfully")
 

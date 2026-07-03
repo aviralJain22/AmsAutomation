@@ -1034,3 +1034,766 @@ waiting for navigation to "**/Home**" until 'load'
 13:05:24  INFO      ams360_workflow.py  Workflow completed successfully
 13:05:24  INFO      browser_manager.py  Stopping browser
 13:05:25  INFO      browser_manager.py  Browser stopped
+16:35:13  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+16:35:13  INFO      browser_manager.py  Starting browser
+16:35:17  INFO      browser_manager.py  Browser started
+16:35:17  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+16:35:21  INFO      login_service.py  Step 1 complete — email submitted
+16:36:03  INFO      login_service.py  Login successful — dashboard loaded
+16:36:03  INFO      customer_service.py  Searching for customer: Seymour, James M
+16:36:20  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+16:36:20  INFO      orchestrator.py  Desktop orchestrator: starting policy flow
+16:36:20  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+16:36:50  ERROR     ams360_workflow.py  Workflow failed: Window 'Policy' did not appear within 30s
+16:36:50  INFO      browser_manager.py  Stopping browser
+16:36:50  INFO      browser_manager.py  Browser stopped
+16:36:50  ERROR     main.py  Unhandled error: Window 'Policy' did not appear within 30s
+16:46:06  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+16:46:06  INFO      browser_manager.py  Starting browser
+16:46:08  INFO      browser_manager.py  Browser started
+16:46:08  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+16:46:11  INFO      login_service.py  Step 1 complete — email submitted
+16:46:54  INFO      login_service.py  Login successful — dashboard loaded
+16:46:54  INFO      customer_service.py  Searching for customer: Seymour, James M
+16:47:06  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+16:47:06  ERROR     ams360_workflow.py  Workflow failed: cannot access local variable 'policy_info' where it is not associated with a value
+16:47:06  INFO      browser_manager.py  Stopping browser
+16:47:06  INFO      browser_manager.py  Browser stopped
+16:47:06  ERROR     main.py  Unhandled error: cannot access local variable 'policy_info' where it is not associated with a value
+17:14:13  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+17:14:13  INFO      browser_manager.py  Starting browser
+17:14:14  INFO      browser_manager.py  Browser started
+17:14:14  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+17:14:17  INFO      login_service.py  Step 1 complete — email submitted
+17:15:19  INFO      login_service.py  Login successful — dashboard loaded
+17:15:19  INFO      customer_service.py  Searching for customer: Seymour, James M
+17:15:32  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+17:15:32  INFO      policy_grid.py  Policy grid: 5 row(s) found
+17:15:32  WARNING   policy_grid.py  No grid row matched policy 'ACI04B11019404' ( – )
+17:15:32  ERROR     ams360_workflow.py  Workflow failed: cannot access local variable 'policy_info' where it is not associated with a value
+17:15:33  INFO      browser_manager.py  Stopping browser
+17:15:33  INFO      browser_manager.py  Browser stopped
+17:15:33  ERROR     main.py  Unhandled error: cannot access local variable 'policy_info' where it is not associated with a value
+17:27:00  ERROR     main.py  Unhandled error: [Errno 2] No such file or directory: 'data\\policies_input.xlsx'
+17:34:28  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+17:34:28  INFO      browser_manager.py  Starting browser
+17:34:30  INFO      browser_manager.py  Browser started
+17:34:30  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+17:34:33  INFO      login_service.py  Step 1 complete — email submitted
+17:35:14  INFO      login_service.py  Login successful — dashboard loaded
+17:35:14  INFO      customer_service.py  Searching for customer: Seymour, James M
+17:35:32  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+17:35:32  INFO      policy_grid.py  Policy grid: 5 row(s) found
+17:35:32  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+17:35:32  WARNING   policy_grid.py  No grid row matched policy 'ACI04B11019404' (01/01/2025 – 01/01/2026)
+17:35:32  WARNING   ams360_workflow.py  Policy 'ACI04B11019404' not found in grid — stopping
+17:35:32  INFO      browser_manager.py  Stopping browser
+17:35:32  INFO      browser_manager.py  Browser stopped
+17:36:48  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+17:36:48  INFO      browser_manager.py  Starting browser
+17:36:49  INFO      browser_manager.py  Browser started
+17:36:49  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+17:36:53  INFO      login_service.py  Step 1 complete — email submitted
+17:37:33  INFO      login_service.py  Login successful — dashboard loaded
+17:37:33  INFO      customer_service.py  Searching for customer: Seymour, James M
+17:37:46  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+17:37:46  INFO      policy_grid.py  Policy grid: 5 row(s) found
+17:37:46  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+17:37:46  INFO      policy_grid.py  Matched policy 'ACI04B11019404' (07/20/2025 – 07/20/2026)
+17:37:47  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019404'
+17:37:47  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019404'
+17:37:47  INFO      orchestrator.py  Desktop orchestrator: starting policy flow
+17:37:47  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+17:38:17  ERROR     ams360_workflow.py  Workflow failed: Window 'Policy' did not appear within 30s
+17:38:17  INFO      browser_manager.py  Stopping browser
+17:38:18  INFO      browser_manager.py  Browser stopped
+17:38:18  ERROR     main.py  Unhandled error: Window 'Policy' did not appear within 30s
+10:53:34  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+10:53:34  INFO      browser_manager.py  Starting browser
+10:53:37  INFO      browser_manager.py  Browser started
+10:53:37  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+10:53:41  INFO      login_service.py  Step 1 complete — email submitted
+10:54:25  INFO      login_service.py  Login successful — dashboard loaded
+10:54:25  INFO      customer_service.py  Searching for customer: Seymour, James M
+10:54:39  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+10:54:39  INFO      policy_grid.py  Policy grid: 5 row(s) found
+10:54:39  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+10:54:39  INFO      policy_grid.py  Matched policy 'ACI04B11019404' (07/20/2025 – 07/20/2026)
+10:54:39  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019404'
+10:54:39  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019404'
+10:54:39  INFO      orchestrator.py  Desktop orchestrator: starting policy flow
+10:54:39  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+10:55:10  ERROR     ams360_workflow.py  Workflow failed: Window 'Policy' did not appear within 30s
+10:55:10  INFO      browser_manager.py  Stopping browser
+10:55:11  INFO      browser_manager.py  Browser stopped
+10:55:11  ERROR     main.py  Unhandled error: Window 'Policy' did not appear within 30s
+================================================================================
+RUN START: 2026-07-02 11:03:37
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:37
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:38
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:39
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:39
+================================================================================
+================================================================================
+RUN START: 2026-07-02 11:03:39
+================================================================================
+11:03:39  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+11:03:39  INFO      browser_manager.py  Starting browser
+11:03:41  INFO      browser_manager.py  Browser started
+11:03:41  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:03:43  INFO      login_service.py  Step 1 complete — email submitted
+11:04:42  INFO      screenshot.py  Screenshot saved: screenshots/20260702_110414_login_failed.png
+11:04:42  ERROR     login_service.py  Login failed: Timeout 30000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+============================================================
+11:04:42  ERROR     ams360_workflow.py  Workflow failed: Timeout 30000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+============================================================
+11:04:42  INFO      browser_manager.py  Stopping browser
+11:04:43  INFO      browser_manager.py  Browser stopped
+11:04:43  ERROR     main.py  Unhandled error: Timeout 30000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+============================================================
+================================================================================
+RUN START: 2026-07-02 11:12:43
+================================================================================
+11:12:44  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+11:12:44  INFO      browser_manager.py  Starting browser
+11:12:46  INFO      browser_manager.py  Browser started
+11:12:46  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:12:49  INFO      login_service.py  Step 1 complete — email submitted
+11:13:32  INFO      login_service.py  Login successful — dashboard loaded
+11:13:32  INFO      customer_service.py  Searching for customer: Seymour, James M
+11:13:44  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+11:13:44  INFO      policy_grid.py  Policy grid: 5 row(s) found
+11:13:44  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+11:13:44  WARNING   policy_grid.py  No grid row matched policy 'ACI04B11019405' (07/20/2025 – 07/20/2026)
+11:13:44  WARNING   ams360_workflow.py  Policy 'ACI04B11019405' not found in grid — stopping
+11:13:44  INFO      browser_manager.py  Stopping browser
+11:13:44  INFO      browser_manager.py  Browser stopped
+================================================================================
+RUN START: 2026-07-02 11:20:37
+================================================================================
+11:20:38  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+11:20:38  INFO      browser_manager.py  Starting browser
+11:20:40  INFO      browser_manager.py  Browser started
+11:20:40  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:20:43  INFO      login_service.py  Step 1 complete — email submitted
+11:21:24  INFO      login_service.py  Login successful — dashboard loaded
+11:21:24  INFO      customer_service.py  Searching for customer: Seymour, James M
+11:21:36  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+11:21:36  INFO      policy_grid.py  Policy grid: 5 row(s) found
+11:21:36  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+11:21:36  INFO      policy_grid.py  Matched policy 'ACI04B11019405' (07/20/2026 – 07/20/2027)
+11:21:36  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019405'
+11:21:36  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019405'
+11:21:36  INFO      orchestrator.py  Desktop orchestrator: starting policy flow
+11:21:36  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+11:22:06  ERROR     ams360_workflow.py  Workflow failed: Window 'Policy' did not appear within 30s
+11:22:06  INFO      browser_manager.py  Stopping browser
+11:22:07  INFO      browser_manager.py  Browser stopped
+11:22:07  ERROR     main.py  Unhandled error: Window 'Policy' did not appear within 30s
+================================================================================
+RUN START: 2026-07-02 11:24:10
+================================================================================
+11:24:11  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+11:24:11  INFO      browser_manager.py  Starting browser
+11:24:13  INFO      browser_manager.py  Browser started
+11:24:13  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:24:35  INFO      login_service.py  Step 1 complete — email submitted
+11:25:14  INFO      login_service.py  Login successful — dashboard loaded
+11:25:14  INFO      customer_service.py  Searching for customer: Seymour, James M
+11:25:27  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+11:25:27  INFO      policy_grid.py  Policy grid: 38 row(s) found
+11:25:47  WARNING   policy_grid.py  Row 5: timed out reading cell — skipping
+11:26:07  WARNING   policy_grid.py  Row 6: timed out reading cell — skipping
+11:26:27  WARNING   policy_grid.py  Row 7: timed out reading cell — skipping
+11:26:47  WARNING   policy_grid.py  Row 8: timed out reading cell — skipping
+11:27:07  WARNING   policy_grid.py  Row 9: timed out reading cell — skipping
+11:27:27  WARNING   policy_grid.py  Row 10: timed out reading cell — skipping
+11:27:47  WARNING   policy_grid.py  Row 11: timed out reading cell — skipping
+11:28:07  WARNING   policy_grid.py  Row 12: timed out reading cell — skipping
+11:28:27  WARNING   policy_grid.py  Row 13: timed out reading cell — skipping
+11:28:47  WARNING   policy_grid.py  Row 14: timed out reading cell — skipping
+11:29:07  WARNING   policy_grid.py  Row 15: timed out reading cell — skipping
+11:29:27  WARNING   policy_grid.py  Row 16: timed out reading cell — skipping
+11:29:47  WARNING   policy_grid.py  Row 17: timed out reading cell — skipping
+11:30:07  WARNING   policy_grid.py  Row 18: timed out reading cell — skipping
+11:30:27  WARNING   policy_grid.py  Row 19: timed out reading cell — skipping
+11:30:47  WARNING   policy_grid.py  Row 20: timed out reading cell — skipping
+11:31:07  WARNING   policy_grid.py  Row 21: timed out reading cell — skipping
+11:31:27  WARNING   policy_grid.py  Row 22: timed out reading cell — skipping
+11:31:47  WARNING   policy_grid.py  Row 23: timed out reading cell — skipping
+11:32:07  WARNING   policy_grid.py  Row 24: timed out reading cell — skipping
+11:32:27  WARNING   policy_grid.py  Row 25: timed out reading cell — skipping
+11:32:47  WARNING   policy_grid.py  Row 26: timed out reading cell — skipping
+11:33:07  WARNING   policy_grid.py  Row 27: timed out reading cell — skipping
+11:33:27  WARNING   policy_grid.py  Row 28: timed out reading cell — skipping
+11:33:47  WARNING   policy_grid.py  Row 29: timed out reading cell — skipping
+11:34:07  WARNING   policy_grid.py  Row 30: timed out reading cell — skipping
+11:34:27  WARNING   policy_grid.py  Row 31: timed out reading cell — skipping
+11:34:47  WARNING   policy_grid.py  Row 32: timed out reading cell — skipping
+11:35:07  WARNING   policy_grid.py  Row 33: timed out reading cell — skipping
+11:35:27  WARNING   policy_grid.py  Row 34: timed out reading cell — skipping
+11:35:47  WARNING   policy_grid.py  Row 35: timed out reading cell — skipping
+11:36:07  WARNING   policy_grid.py  Row 36: timed out reading cell — skipping
+11:36:27  WARNING   policy_grid.py  Row 37: timed out reading cell — skipping
+11:36:27  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+11:36:27  INFO      policy_grid.py  Matched policy 'ACI04B11019405' (07/20/2026 – 07/20/2027)
+11:36:27  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019405'
+11:36:27  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019405'
+11:36:27  INFO      orchestrator.py  Desktop orchestrator: starting policy flow
+11:36:27  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+11:36:58  ERROR     ams360_workflow.py  Workflow failed: Window 'Policy' did not appear within 30s
+11:36:58  INFO      browser_manager.py  Stopping browser
+11:36:59  INFO      browser_manager.py  Browser stopped
+11:36:59  ERROR     main.py  Unhandled error: Window 'Policy' did not appear within 30s
+================================================================================
+RUN START: 2026-07-02 13:43:16
+================================================================================
+13:43:17  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+13:43:17  INFO      browser_manager.py  Starting browser
+13:43:20  INFO      browser_manager.py  Browser started
+13:43:20  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+13:43:23  INFO      login_service.py  Step 1 complete — email submitted
+13:43:53  INFO      login_service.py  Login successful — dashboard loaded
+13:43:53  INFO      customer_service.py  Searching for customer: Seymour, James M
+13:44:07  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+13:44:07  INFO      policy_grid.py  Policy grid: 5 row(s) found
+13:44:07  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+13:44:07  INFO      policy_grid.py  Matched policy 'ACI04B11019405' (07/20/2026 – 07/20/2027)
+13:44:08  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019405'
+13:44:08  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019405'
+13:44:08  INFO      orchestrator.py  Desktop orchestrator: starting policy flow
+13:44:08  INFO      desktop_manager.py  Waiting for window matching: 'Policy'
+13:44:39  ERROR     ams360_workflow.py  Workflow failed: Window 'Policy' did not appear within 30s
+13:44:39  INFO      browser_manager.py  Stopping browser
+13:44:39  INFO      browser_manager.py  Browser stopped
+13:44:39  ERROR     main.py  Unhandled error: Window 'Policy' did not appear within 30s
+================================================================================
+RUN START: 2026-07-02 13:59:20
+================================================================================
+13:59:21  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+13:59:21  INFO      browser_manager.py  Starting browser
+13:59:23  INFO      browser_manager.py  Browser started
+13:59:23  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+13:59:27  INFO      login_service.py  Step 1 complete — email submitted
+14:00:06  INFO      login_service.py  Login successful — dashboard loaded
+14:00:06  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:00:27  INFO      screenshot.py  Screenshot saved: screenshots/20260702_140026_customer_search_failed.png
+14:00:27  ERROR     customer_service.py  Customer search failed: Timeout 20000ms exceeded.
+14:00:27  ERROR     ams360_workflow.py  Workflow failed: Timeout 20000ms exceeded.
+14:00:27  INFO      browser_manager.py  Stopping browser
+14:00:27  INFO      browser_manager.py  Browser stopped
+14:00:27  ERROR     main.py  Unhandled error: Timeout 20000ms exceeded.
+================================================================================
+RUN START: 2026-07-02 14:00:35
+================================================================================
+14:00:36  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+14:00:36  INFO      browser_manager.py  Starting browser
+14:00:38  INFO      browser_manager.py  Browser started
+14:00:38  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:00:41  INFO      login_service.py  Step 1 complete — email submitted
+14:01:03  INFO      screenshot.py  Screenshot saved: screenshots/20260702_140102_login_failed.png
+14:01:03  ERROR     login_service.py  Login failed: Timeout 20000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+14:01:03  ERROR     ams360_workflow.py  Workflow failed: Timeout 20000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+14:01:03  INFO      browser_manager.py  Stopping browser
+14:01:03  INFO      browser_manager.py  Browser stopped
+14:01:03  ERROR     main.py  Unhandled error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+================================================================================
+RUN START: 2026-07-02 14:01:16
+================================================================================
+14:01:17  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+14:01:17  INFO      browser_manager.py  Starting browser
+14:01:18  INFO      browser_manager.py  Browser started
+14:01:18  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:01:21  INFO      login_service.py  Step 1 complete — email submitted
+14:01:42  INFO      screenshot.py  Screenshot saved: screenshots/20260702_140142_login_failed.png
+14:01:42  ERROR     login_service.py  Login failed: Timeout 20000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+14:01:42  ERROR     ams360_workflow.py  Workflow failed: Timeout 20000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+14:01:42  INFO      browser_manager.py  Stopping browser
+14:01:43  INFO      browser_manager.py  Browser stopped
+14:01:43  ERROR     main.py  Unhandled error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+================================================================================
+RUN START: 2026-07-02 14:02:46
+================================================================================
+14:02:47  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+14:02:47  INFO      browser_manager.py  Starting browser
+14:02:49  INFO      browser_manager.py  Browser started
+14:02:49  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:02:52  INFO      login_service.py  Step 1 complete — email submitted
+14:03:20  INFO      login_service.py  Login successful — dashboard loaded
+14:03:20  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:03:33  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+14:03:33  INFO      policy_grid.py  Policy grid: 5 row(s) found
+14:03:33  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+14:03:33  INFO      policy_grid.py  Matched policy 'ACI04B11019405' (07/20/2026 – 07/20/2027)
+14:03:33  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019405'
+14:03:33  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019405'
+14:03:33  INFO      orchestrator.py  Desktop orchestrator: starting 'Renew' flow
+14:03:33  INFO      desktop_manager.py  Waiting for window matching: 'Create Renewal/Rewrite Policy - Policy number'
+14:04:04  ERROR     ams360_workflow.py  Workflow failed: Window 'Create Renewal/Rewrite Policy - Policy number' did not appear within 30s
+14:04:04  INFO      browser_manager.py  Stopping browser
+14:04:04  INFO      browser_manager.py  Browser stopped
+14:04:04  ERROR     main.py  Unhandled error: Window 'Create Renewal/Rewrite Policy - Policy number' did not appear within 30s
+================================================================================
+RUN START: 2026-07-02 14:05:35
+================================================================================
+14:05:36  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+14:05:36  INFO      browser_manager.py  Starting browser
+14:05:38  INFO      browser_manager.py  Browser started
+14:05:38  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:05:41  INFO      login_service.py  Step 1 complete — email submitted
+14:06:18  INFO      login_service.py  Login successful — dashboard loaded
+14:06:18  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:06:38  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+14:06:38  INFO      policy_grid.py  Policy grid: 38 row(s) found
+14:06:58  WARNING   policy_grid.py  Row 5: timed out reading cell — skipping
+14:07:18  WARNING   policy_grid.py  Row 6: timed out reading cell — skipping
+14:07:38  WARNING   policy_grid.py  Row 7: timed out reading cell — skipping
+14:07:58  WARNING   policy_grid.py  Row 8: timed out reading cell — skipping
+14:08:18  WARNING   policy_grid.py  Row 9: timed out reading cell — skipping
+14:08:38  WARNING   policy_grid.py  Row 10: timed out reading cell — skipping
+14:08:58  WARNING   policy_grid.py  Row 11: timed out reading cell — skipping
+14:09:18  WARNING   policy_grid.py  Row 12: timed out reading cell — skipping
+14:09:38  WARNING   policy_grid.py  Row 13: timed out reading cell — skipping
+14:09:58  WARNING   policy_grid.py  Row 14: timed out reading cell — skipping
+14:10:18  WARNING   policy_grid.py  Row 15: timed out reading cell — skipping
+14:10:38  WARNING   policy_grid.py  Row 16: timed out reading cell — skipping
+14:10:58  WARNING   policy_grid.py  Row 17: timed out reading cell — skipping
+14:11:18  WARNING   policy_grid.py  Row 18: timed out reading cell — skipping
+14:11:38  WARNING   policy_grid.py  Row 19: timed out reading cell — skipping
+14:11:58  WARNING   policy_grid.py  Row 20: timed out reading cell — skipping
+14:12:18  WARNING   policy_grid.py  Row 21: timed out reading cell — skipping
+14:12:38  WARNING   policy_grid.py  Row 22: timed out reading cell — skipping
+14:12:58  WARNING   policy_grid.py  Row 23: timed out reading cell — skipping
+14:13:18  WARNING   policy_grid.py  Row 24: timed out reading cell — skipping
+14:13:38  WARNING   policy_grid.py  Row 25: timed out reading cell — skipping
+14:13:58  WARNING   policy_grid.py  Row 26: timed out reading cell — skipping
+14:14:18  WARNING   policy_grid.py  Row 27: timed out reading cell — skipping
+14:14:38  WARNING   policy_grid.py  Row 28: timed out reading cell — skipping
+14:14:58  WARNING   policy_grid.py  Row 29: timed out reading cell — skipping
+14:15:18  WARNING   policy_grid.py  Row 30: timed out reading cell — skipping
+14:15:38  WARNING   policy_grid.py  Row 31: timed out reading cell — skipping
+14:15:58  WARNING   policy_grid.py  Row 32: timed out reading cell — skipping
+14:16:18  WARNING   policy_grid.py  Row 33: timed out reading cell — skipping
+14:16:38  WARNING   policy_grid.py  Row 34: timed out reading cell — skipping
+14:16:58  WARNING   policy_grid.py  Row 35: timed out reading cell — skipping
+14:17:18  WARNING   policy_grid.py  Row 36: timed out reading cell — skipping
+14:17:38  WARNING   policy_grid.py  Row 37: timed out reading cell — skipping
+14:17:38  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+14:17:38  INFO      policy_grid.py  Matched policy 'ACI04B11019405' (07/20/2026 – 07/20/2027)
+14:17:38  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019405'
+14:17:38  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019405'
+14:17:38  INFO      orchestrator.py  Desktop orchestrator: starting 'Renew' flow
+14:17:38  INFO      desktop_manager.py  Waiting for window matching: 'Create Renewal/Rewrite Policy*'
+14:17:46  INFO      desktop_manager.py  Window found: Create Renewal/Rewrite Policy - ACI04B11019405
+14:17:46  INFO      desktop_manager.py  Attaching to window: 'Create Renewal/Rewrite Policy*'
+14:17:46  INFO      desktop_manager.py  Window attached
+14:17:46  INFO      desktop_manager.py  Window maximized
+14:17:47  INFO      session.py  Renew window Policy #: 'ACI04B11019405'
+14:17:47  INFO      session.py  Renew window Effective Date: '07/20/2027'
+14:17:47  INFO      session.py  Renew window Expiration Date: '07/20/2028'
+14:17:48  INFO      reader.py  Policy # updated to 'ACI04B11019405'
+14:17:48  INFO      reader.py  Clicked Cancel on Renew window
+14:17:48  INFO      desktop_manager.py  Waiting 30s before closing window
+14:18:23  WARNING   desktop_manager.py  Error closing window: {'title_re': 'Create Renewal/Rewrite Policy*', 'backend': 'uia', 'process': 11512}
+14:18:23  INFO      orchestrator.py  Desktop orchestrator: 'Renew' flow complete
+14:18:23  INFO      ams360_workflow.py  Workflow completed successfully
+14:18:23  INFO      browser_manager.py  Stopping browser
+14:18:24  INFO      browser_manager.py  Browser stopped
+================================================================================
+RUN START: 2026-07-02 14:30:17
+================================================================================
+14:30:18  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+14:30:18  INFO      browser_manager.py  Starting browser
+14:30:19  INFO      browser_manager.py  Browser started
+14:30:19  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+14:30:22  INFO      login_service.py  Step 1 complete — email submitted
+14:30:52  INFO      login_service.py  Login successful — dashboard loaded
+14:30:52  INFO      customer_service.py  Searching for customer: Seymour, James M
+14:31:05  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+14:31:05  INFO      policy_grid.py  Policy grid: 5 row(s) found
+14:31:05  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+14:31:05  INFO      policy_grid.py  Matched policy 'ACI04B11019405' (07/20/2026 – 07/20/2027)
+14:31:05  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019405'
+14:31:05  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019405'
+14:31:05  INFO      orchestrator.py  Desktop orchestrator: starting 'Renew' flow
+14:31:05  INFO      desktop_manager.py  Waiting for window matching: 'Create Renewal/Rewrite Policy*'
+14:31:12  INFO      desktop_manager.py  Window found: Create Renewal/Rewrite Policy - ACI04B11019405
+14:31:12  INFO      desktop_manager.py  Attaching to window: 'Create Renewal/Rewrite Policy*'
+14:31:12  INFO      desktop_manager.py  Window attached
+14:31:12  INFO      desktop_manager.py  Window maximized
+14:31:13  INFO      session.py  Renew window Policy #: 'ACI04B11019405'
+14:31:13  INFO      session.py  Renew window Effective Date: '07/20/2027'
+14:31:13  INFO      session.py  Renew window Expiration Date: '07/20/2028'
+14:31:13  INFO      reader.py  Policy # updated to 'ACI04B11019405'
+14:31:14  INFO      reader.py  Clicked Cancel on Renew window
+14:31:14  INFO      desktop_manager.py  Waiting 30s before closing window
+14:31:49  WARNING   desktop_manager.py  Error closing window: {'title_re': 'Create Renewal/Rewrite Policy*', 'backend': 'uia', 'process': 11512}
+14:31:49  INFO      orchestrator.py  Desktop orchestrator: 'Renew' flow complete
+14:31:49  INFO      ams360_workflow.py  Workflow completed successfully
+14:31:49  INFO      browser_manager.py  Stopping browser
+14:31:50  INFO      browser_manager.py  Browser stopped
+================================================================================
+RUN START: 2026-07-02 15:38:27
+================================================================================
+15:38:29  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+15:38:29  INFO      browser_manager.py  Starting browser
+15:38:31  INFO      browser_manager.py  Browser started
+15:38:31  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+15:38:34  INFO      login_service.py  Step 1 complete — email submitted
+15:38:41  INFO      browser_manager.py  Stopping browser
+================================================================================
+RUN START: 2026-07-03 11:43:30
+================================================================================
+11:43:34  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+11:43:34  INFO      browser_manager.py  Starting browser
+11:43:40  INFO      browser_manager.py  Browser started
+11:43:40  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:43:44  INFO      login_service.py  Step 1 complete — email submitted
+11:44:04  INFO      screenshot.py  Screenshot saved: screenshots/20260703_114404_login_failed.png
+11:44:04  ERROR     login_service.py  Login failed: Timeout 20000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+11:44:04  ERROR     ams360_workflow.py  Workflow failed: Timeout 20000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+11:44:04  INFO      browser_manager.py  Stopping browser
+11:44:05  INFO      browser_manager.py  Browser stopped
+11:44:05  ERROR     main.py  Unhandled error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+"commit" event fired
+"domcontentloaded" event fired
+"load" event fired
+============================================================
+================================================================================
+RUN START: 2026-07-03 11:44:10
+================================================================================
+11:44:11  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+11:44:11  INFO      browser_manager.py  Starting browser
+11:44:13  INFO      browser_manager.py  Browser started
+11:44:13  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+11:44:16  INFO      login_service.py  Step 1 complete — email submitted
+11:44:45  INFO      login_service.py  Login successful — dashboard loaded
+11:44:45  INFO      customer_service.py  Searching for customer: Seymour, James M
+11:45:15  INFO      screenshot.py  Screenshot saved: screenshots/20260703_114515_customer_search_failed.png
+11:45:15  ERROR     customer_service.py  Customer search failed: Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("a.policy.launchPolicy.link") to be visible
+
+11:45:15  ERROR     ams360_workflow.py  Workflow failed: Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("a.policy.launchPolicy.link") to be visible
+
+11:45:15  INFO      browser_manager.py  Stopping browser
+11:45:15  INFO      browser_manager.py  Browser stopped
+11:45:15  ERROR     main.py  Unhandled error: Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("a.policy.launchPolicy.link") to be visible
+
+================================================================================
+RUN START: 2026-07-03 12:11:22
+================================================================================
+12:11:23  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+12:11:23  INFO      browser_manager.py  Starting browser
+12:11:25  INFO      browser_manager.py  Browser started
+12:11:25  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+12:11:28  INFO      login_service.py  Step 1 complete — email submitted
+12:12:11  INFO      login_service.py  Login successful — dashboard loaded
+12:12:11  INFO      customer_service.py  Searching for customer: Seymour, James M
+12:12:33  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+12:12:33  INFO      policy_grid.py  Policy grid: 5 row(s) found
+12:12:33  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+12:12:33  INFO      policy_grid.py  Matched policy 'ACI04B11019405' (07/20/2026 – 07/20/2027)
+12:12:33  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019405'
+12:12:33  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019405'
+12:12:33  INFO      orchestrator.py  Desktop orchestrator: starting 'Renew' flow
+12:12:33  INFO      desktop_manager.py  Waiting for window matching: 'Create Renewal/Rewrite Policy*'
+12:12:41  INFO      desktop_manager.py  Window found: 
+12:12:41  INFO      desktop_manager.py  Attaching to window: 'Create Renewal/Rewrite Policy*'
+12:12:41  ERROR     ams360_workflow.py  Workflow failed: {'title_re': 'Create Renewal/Rewrite Policy*', 'backend': 'uia', 'visible_only': False}
+12:12:41  INFO      browser_manager.py  Stopping browser
+12:12:42  INFO      browser_manager.py  Browser stopped
+12:12:42  ERROR     main.py  Unhandled error: {'title_re': 'Create Renewal/Rewrite Policy*', 'backend': 'uia', 'visible_only': False}
+================================================================================
+RUN START: 2026-07-03 12:13:58
+================================================================================
+12:13:59  INFO      ams360_workflow.py  Starting workflow for customer: Seymour, James M | action: Renew
+12:13:59  INFO      browser_manager.py  Starting browser
+12:14:01  INFO      browser_manager.py  Browser started
+12:14:01  INFO      login_service.py  Navigating to https://login.apps.vertafore.com/idp/prp.wsf?wa=wsignin1.0&wtrealm=https%3a%2f%2fwww.ams360.com%2fsso%2f
+12:14:04  INFO      login_service.py  Step 1 complete — email submitted
+12:14:48  INFO      login_service.py  Login successful — dashboard loaded
+12:14:48  INFO      customer_service.py  Searching for customer: Seymour, James M
+12:15:03  INFO      customer_service.py  Customer detail page loaded for: Seymour, James M
+12:15:03  INFO      policy_grid.py  Policy grid: 5 row(s) found
+12:15:03  INFO      policy_grid.py  
+----------------------------------------------------------------
+                          Policy Data                           
+----------------------------------------------------------------
+Policy Number       Effective Date      Expiry Date         
+------------------------------------------------------------
+ACI04B11019405      07/20/2026          07/20/2027          
+ACI04B11019404      07/20/2025          07/20/2026          
+ACI04B11019403      07/20/2024          07/20/2025          
+ACI04B11019402      07/20/2023          07/20/2024          
+ACI04B11019401      07/20/2022          07/20/2023          
+----------------------------------------------------------------
+12:15:03  INFO      policy_grid.py  Matched policy 'ACI04B11019405' (07/20/2026 – 07/20/2027)
+12:15:03  INFO      policy_grid.py  Selected grid row for policy 'ACI04B11019405'
+12:15:03  INFO      policy_grid.py  Clicked 'Renew' button for policy 'ACI04B11019405'
+12:15:03  INFO      orchestrator.py  Desktop orchestrator: starting 'Renew' flow
+12:15:03  INFO      desktop_manager.py  Waiting for window matching: 'Create Renewal/Rewrite Policy*'
+12:15:10  INFO      desktop_manager.py  Window found: Create Renewal/Rewrite Policy - ACI04B11019405
+12:15:10  INFO      desktop_manager.py  Attaching to window: 'Create Renewal/Rewrite Policy*'
+12:15:10  INFO      desktop_manager.py  Window attached
+12:15:11  INFO      desktop_manager.py  Window maximized
+12:15:11  INFO      session.py  Renew window Policy #: 'ACI04B11019405'
+12:15:12  INFO      session.py  Renew window Effective Date: '07/20/2027'
+12:15:14  INFO      session.py  Renew window Expiration Date: '07/20/2028'
+12:15:15  INFO      reader.py  Policy # updated to 'ACI04B11019405'
+12:15:17  INFO      reader.py  Clicked Cancel on Renew window
+12:15:17  INFO      desktop_manager.py  Waiting 30s before closing window
+12:15:52  WARNING   desktop_manager.py  Error closing window: {'title_re': 'Create Renewal/Rewrite Policy*', 'backend': 'uia', 'process': 18324}
+12:15:52  INFO      orchestrator.py  Desktop orchestrator: 'Renew' flow complete
+12:15:52  INFO      ams360_workflow.py  Workflow completed successfully
+12:15:52  INFO      browser_manager.py  Stopping browser
+12:15:52  INFO      browser_manager.py  Browser stopped

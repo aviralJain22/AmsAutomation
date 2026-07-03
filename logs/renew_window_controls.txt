@@ -1,0 +1,471 @@
+Control Identifiers:
+
+Dialog - 'Create Renewal/Rewrite Policy - ACI04B11019405'    (L-8, T-8, R1928, B1040)
+['Create Renewal/Rewrite Policy - ACI04B11019405Dialog', 'Dialog', 'Create Renewal/Rewrite Policy - ACI04B11019405']
+child_window(title="Create Renewal/Rewrite Policy - ACI04B11019405", auto_id="CopyPolicy", control_type="Window")
+   | 
+   | Pane - ''    (L0, T23, R1920, B1008)
+   | ['Enter the Basic Policy Information or select a Submission to create the renewal/rewrite of this Policy.\nThe most current Application version(s) will default.Pane', 'Pane', 'Enter the Basic Policy Information or select a Submission to create the renewal/rewrite of this Policy.\nThe most current Application version(s) will default.Pane0', 'Enter the Basic Policy Information or select a Submission to create the renewal/rewrite of this Policy.\nThe most current Application version(s) will default.Pane1', 'Pane0', 'Pane1']
+   | child_window(auto_id="m_oPanelMain", control_type="Pane")
+   |    | 
+   |    | Pane - ''    (L9, T31, R1909, B606)
+   |    | ['Enter the Basic Policy Information or select a Submission to create the renewal/rewrite of this Policy.\nThe most current Application version(s) will default.Pane2', 'Pane2']
+   |    | child_window(auto_id="sctCopyPolicy_CopyPolCopyPol", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Delete'    (L9, T50, R1909, B606)
+   |    |    | ['DeletePane', 'Pane3', 'Delete']
+   |    |    | child_window(title="Delete", auto_id="Summary", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | ComboBox - 'Personal Lines'    (L453, T226, R641, B247)
+   |    |    |    | ['Personal Lines', 'ComboBox', 'Personal LinesComboBox', 'ComboBox0', 'ComboBox1']
+   |    |    |    | child_window(title="Personal Lines", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbBPolTypeOfBus", control_type="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Static - ''    (L453, T226, R641, B247)
+   |    |    |    |    | ['Static', 'Type of Business:Static', 'Static0', 'Static1', 'Type of Business:Static0', 'Type of Business:Static1']
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Open'    (L625, T227, R640, B246)
+   |    |    |    |    | ['Button', 'Open', 'OpenButton', 'Button0', 'Button1', 'Open0', 'Open1', 'OpenButton0', 'OpenButton1']
+   |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Type of Business:'    (L337, T226, R457, B247)
+   |    |    |    | ['Type of Business:', 'Static2', 'Type of Business:Static2']
+   |    |    |    | child_window(title="Type of Business:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbBPolTypeOfBus", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Effective Date:'    (L17, T170, R121, B191)
+   |    |    |    | ['Effective Date:', 'Effective Date:Static', 'Static3', 'Effective Date:0', 'Effective Date:1', 'Effective Date:Static0', 'Effective Date:Static1']
+   |    |    |    | child_window(title="Effective Date:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbCopyPolEffDate", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - 'Description:'    (L453, T275, R641, B296)
+   |    |    |    | ['Effective Date:Edit', 'Edit', 'Transaction:Edit', 'Edit0', 'Edit1', 'Effective Date:Edit0', 'Effective Date:Edit1']
+   |    |    |    | child_window(title="Description:", auto_id="txtCopyPolicy_CopyPolCopyPol_PolTDescription", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | ComboBox - 'Submission #:'    (L121, T146, R571, B167)
+   |    |    |    | ['Submission #:', 'Submission #:ComboBox', 'ComboBox2', 'Submission #:0', 'Submission #:1']
+   |    |    |    | child_window(title="Submission #:", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbCopyPolPolNo", control_type="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Submission #:'    (L121, T146, R571, B167)
+   |    |    |    |    | ['Submission #:2', 'Submission #:Static', 'Static4', 'Submission #:Static0', 'Submission #:Static1']
+   |    |    |    |    | child_window(title="Submission #:", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Open'    (L555, T147, R570, B166)
+   |    |    |    |    | ['Button2', 'Open2', 'OpenButton2']
+   |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    | 
+   |    |    |    | GroupBox - 'Billing/Payment Information'    (L661, T226, R965, B322)
+   |    |    |    | ['Billing/Payment InformationGroupBox', 'Billing/Payment Information', 'GroupBox', 'GroupBox0', 'GroupBox1']
+   |    |    |    | child_window(title="Billing/Payment Information", auto_id="grpCopyPolicy_CopyPolCopyPol_CopyPolGrpBilling", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - 'Pay Plan:'    (L773, T290, R949, B311)
+   |    |    |    |    | ['Pay Plan:', 'Pay Plan:ComboBox', 'ComboBox3', 'Pay Plan:0', 'Pay Plan:1']
+   |    |    |    |    | child_window(title="Pay Plan:", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbCopyPolPayPlan", control_type="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Pay Plan:'    (L773, T290, R949, B311)
+   |    |    |    |    |    | ['Pay Plan:2', 'Static5', 'Pay Plan:Static', 'Pay Plan:Static0', 'Pay Plan:Static1']
+   |    |    |    |    |    | child_window(title="Pay Plan:", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Open'    (L933, T291, R948, B310)
+   |    |    |    |    |    | ['Button3', 'Open3', 'OpenButton3']
+   |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Pay Plan:'    (L675, T290, R739, B311)
+   |    |    |    |    | ['Pay Plan:3', 'Static6', 'Pay Plan:Static2']
+   |    |    |    |    | child_window(title="Pay Plan:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbCopyPolPayPlan", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - 'Bill Method:'    (L773, T266, R949, B287)
+   |    |    |    |    | ['Bill Method:', 'ComboBox4', 'Bill Method:ComboBox', 'Bill Method:0', 'Bill Method:1']
+   |    |    |    |    | child_window(title="Bill Method:", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbCopyPolBillMth", control_type="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Bill Method:'    (L773, T266, R949, B287)
+   |    |    |    |    |    | ['Bill Method:2', 'Bill Method:Static', 'Static7', 'Bill Method:Static0', 'Bill Method:Static1']
+   |    |    |    |    |    | child_window(title="Bill Method:", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Open'    (L933, T267, R948, B286)
+   |    |    |    |    |    | ['Button4', 'Open4', 'OpenButton4']
+   |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Bill Method:'    (L675, T266, R763, B287)
+   |    |    |    |    | ['Bill Method:3', 'Bill Method:Static2', 'Static8']
+   |    |    |    |    | child_window(title="Bill Method:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbCopyPolBillMth", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Description:'    (L337, T274, R425, B295)
+   |    |    |    | ['Description:Static', 'Description:', 'Static9']
+   |    |    |    | child_window(title="Description:", auto_id="lblCopyPolicy_CopyPolCopyPol_PolTDescription", control_type="Text")
+   |    |    |    | 
+   |    |    |    | ComboBox - 'Effective Date:'    (L121, T170, R393, B191)
+   |    |    |    | ['Effective Date:2', 'Effective Date:ComboBox', 'ComboBox5']
+   |    |    |    | child_window(title="Effective Date:", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbCopyPolEffDate", control_type="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Effective Date:'    (L121, T170, R393, B191)
+   |    |    |    |    | ['Effective Date:3', 'Effective Date:Static2', 'Static10']
+   |    |    |    |    | child_window(title="Effective Date:", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Open'    (L377, T171, R392, B190)
+   |    |    |    |    | ['Button5', 'Open5', 'OpenButton5']
+   |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Edit - 'Policy #:'    (L121, T226, R313, B247)
+   |    |    |    | ['Policy #:Edit', 'Edit2']
+   |    |    |    | child_window(title="Policy #:", auto_id="txtCopyPolicy_CopyPolCopyPol_BPolPolNo", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | GroupBox - 'Options'    (L337, T456, R963, B576)
+   |    |    |    | ['OptionsGroupBox', 'GroupBox2', 'Options']
+   |    |    |    | child_window(title="Options", auto_id="grpCopyPolicy_CopyPolCopyPol_CopyPolGrpOptions", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | CheckBox - 'Exclude Lines of Business'    (L345, T488, R521, B509)
+   |    |    |    |    | ['Exclude Lines of BusinessCheckBox', 'CheckBox', 'Exclude Lines of Business', 'CheckBox0', 'CheckBox1']
+   |    |    |    |    | child_window(title="Exclude Lines of Business", auto_id="chkCopyPolicy_CopyPolCopyPol_ExcludeLOBs", control_type="CheckBox")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Default From Current Customer'    (L537, T472, R731, B488)
+   |    |    |    |    | ['Static11', 'Default From Current CustomerStatic', 'Default From Current Customer']
+   |    |    |    |    | child_window(title="Default From Current Customer", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolDefCurrCust", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | CheckBox - 'Contacts'    (L537, T536, R617, B557)
+   |    |    |    |    | ['Contacts', 'CheckBox2', 'ContactsCheckBox']
+   |    |    |    |    | child_window(title="Contacts", auto_id="chkCopyPolicy_CopyPolCopyPol_DefCustContact", control_type="CheckBox")
+   |    |    |    |    | 
+   |    |    |    |    | CheckBox - 'DBA'    (L537, T520, R595, B541)
+   |    |    |    |    | ['CheckBox3', 'DBACheckBox', 'DBA']
+   |    |    |    |    | child_window(title="DBA", auto_id="chkCopyPolicy_CopyPolCopyPol_DefCustDBA", control_type="CheckBox")
+   |    |    |    |    | 
+   |    |    |    |    | CheckBox - 'Co-Insured (Spouse or First Dependent)'    (L537, T504, R803, B525)
+   |    |    |    |    | ['Co-Insured (Spouse or First Dependent)', 'CheckBox4', 'Co-Insured (Spouse or First Dependent)CheckBox']
+   |    |    |    |    | child_window(title="Co-Insured (Spouse or First Dependent)", auto_id="chkCopyPolicy_CopyPolCopyPol_DefCustCoIns", control_type="CheckBox")
+   |    |    |    |    | 
+   |    |    |    |    | CheckBox - 'First Named Insured (Name, Address, and General Information)'    (L537, T488, R929, B509)
+   |    |    |    |    | ['First Named Insured (Name, Address, and General Information)', 'CheckBox5', 'First Named Insured (Name, Address, and General Information)CheckBox']
+   |    |    |    |    | child_window(title="First Named Insured (Name, Address, and General Information)", auto_id="chkCopyPolicy_CopyPolCopyPol_DefCustFNI", control_type="CheckBox")
+   |    |    |    |    | 
+   |    |    |    |    | CheckBox - 'Include Policy Notes'    (L345, T472, R489, B493)
+   |    |    |    |    | ['CheckBox6', 'Include Policy NotesCheckBox', 'Include Policy Notes']
+   |    |    |    |    | child_window(title="Include Policy Notes", auto_id="chkCopyPolicy_CopyPolCopyPol_InclNotes", control_type="CheckBox")
+   |    |    |    | 
+   |    |    |    | Static - 'To create the Renewal, enter the following information:'    (L9, T202, R537, B218)
+   |    |    |    | ['To create the Renewal, enter the following information:', 'Static12', 'To create the Renewal, enter the following information:Static']
+   |    |    |    | child_window(title="To create the Renewal, enter the following information:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCopyPolToCreate", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Policy #:'    (L17, T226, R113, B247)
+   |    |    |    | ['Policy #:', 'Static13', 'Policy #:Static']
+   |    |    |    | child_window(title="Policy #:", auto_id="lblCopyPolicy_CopyPolCopyPol_BPolPolNo", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - 'Customer:'    (L121, T122, R393, B143)
+   |    |    |    | ['Customer:Edit', 'Edit3']
+   |    |    |    | child_window(title="Customer:", auto_id="txtCopyPolicy_CopyPolCopyPol_Customer", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | Static - 'Effective Date:'    (L17, T250, R121, B273)
+   |    |    |    | ['Effective Date:4', 'Effective Date:Static3', 'Static14']
+   |    |    |    | child_window(title="Effective Date:", auto_id="lblCopyPolicy_CopyPolCopyPol_BPolPolEffDate", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Pane - '7/20/2027 12:00:00 AM'    (L121, T250, R217, B273)
+   |    |    |    | ['7/20/2027 12:00:00 AMPane', 'Pane4', '7/20/2027 12:00:00 AM']
+   |    |    |    | child_window(title="7/20/2027 12:00:00 AM", auto_id="datCopyPolicy_CopyPolCopyPol_BPolPolEffDate", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - 'Effective Date:'    (L121, T251, R202, B272)
+   |    |    |    |    | ['Edit4', 'Effective Date:Edit2']
+   |    |    |    |    | child_window(title="Effective Date:", auto_id="ZZZm_txtDateValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | Button - 'Cancel'    (L466, T583, R541, B606)
+   |    |    |    | ['Button6', 'Cancel', 'CancelButton']
+   |    |    |    | child_window(title="Cancel", auto_id="btnCopyPolicy_CopyPolCopyPol_CopyPolCancel", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Expiration Date:'    (L17, T274, R121, B297)
+   |    |    |    | ['Expiration Date:', 'Static15', 'Expiration Date:Static']
+   |    |    |    | child_window(title="Expiration Date:", auto_id="lblCopyPolicy_CopyPolCopyPol_BPolPolExpDate", control_type="Text")
+   |    |    |    | 
+   |    |    |    | ComboBox - 'Transaction:'    (L453, T250, R641, B271)
+   |    |    |    | ['Transaction:', 'Transaction:ComboBox', 'ComboBox6', 'Transaction:0', 'Transaction:1']
+   |    |    |    | child_window(title="Transaction:", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbTransaction", control_type="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Transaction:'    (L453, T250, R641, B271)
+   |    |    |    |    | ['Static16', 'Transaction:Static', 'Transaction:2', 'Transaction:Static0', 'Transaction:Static1']
+   |    |    |    |    | child_window(title="Transaction:", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Open'    (L625, T251, R640, B270)
+   |    |    |    |    | ['Button7', 'Open6', 'OpenButton6']
+   |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Customer:'    (L17, T122, R97, B143)
+   |    |    |    | ['Customer:', 'Customer:Static', 'Static17']
+   |    |    |    | child_window(title="Customer:", auto_id="lblCopyPolicy_CopyPolCopyPol_Customer", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Pane - '7/20/2028 12:00:00 AM'    (L121, T274, R217, B297)
+   |    |    |    | ['Pane5', '7/20/2028 12:00:00 AMPane', '7/20/2028 12:00:00 AM']
+   |    |    |    | child_window(title="7/20/2028 12:00:00 AM", auto_id="datCopyPolicy_CopyPolCopyPol_BPolPolExpDate", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - 'Expiration Date:'    (L121, T275, R202, B296)
+   |    |    |    |    | ['Expiration Date:Edit', 'Edit5']
+   |    |    |    |    | child_window(title="Expiration Date:", auto_id="ZZZm_txtDateValue", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | Button - 'OK'    (L361, T583, R436, B606)
+   |    |    |    | ['Button8', 'OKButton', 'OK']
+   |    |    |    | child_window(title="OK", auto_id="btnCopyPolicy_CopyPolCopyPol_CopyPolOK", control_type="Button")
+   |    |    |    | 
+   |    |    |    | GroupBox - 'Company'    (L335, T330, R653, B450)
+   |    |    |    | ['CompanyGroupBox', 'Company', 'GroupBox3']
+   |    |    |    | child_window(title="Company", auto_id="grpCopyPolicy_CopyPolCopyPol_CopyPolicyGrpCoType", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | RadioButton - 'Subscription'    (L542, T348, R644, B365)
+   |    |    |    |    | ['RadioButton', 'SubscriptionRadioButton', 'Subscription', 'RadioButton0', 'RadioButton1']
+   |    |    |    |    | child_window(title="Subscription", auto_id="radCopyPolicy_CopyPolCopyPolCopyPolicyGrpCoTypeSubscription_BPolCoType", control_type="RadioButton")
+   |    |    |    |    | 
+   |    |    |    |    | RadioButton - 'Brokerage'    (L443, T348, R535, B365)
+   |    |    |    |    | ['BrokerageRadioButton', 'RadioButton2', 'Brokerage']
+   |    |    |    |    | child_window(title="Brokerage", auto_id="radCopyPolicy_CopyPolCopyPolCopyPolicyGrpCoTypeBrokerage_BPolCoType", control_type="RadioButton")
+   |    |    |    |    | 
+   |    |    |    |    | RadioButton - 'Insurance'    (L343, T348, R435, B365)
+   |    |    |    |    | ['RadioButton3', 'Insurance', 'InsuranceRadioButton']
+   |    |    |    |    | child_window(title="Insurance", auto_id="radCopyPolicy_CopyPolCopyPolCopyPolicyGrpCoTypeInsurance_BPolCoType", control_type="RadioButton")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - 'Parent:'    (L423, T370, R631, B391)
+   |    |    |    |    | ['Parent:ComboBox', 'Parent:', 'ComboBox7', 'Parent:0', 'Parent:1']
+   |    |    |    |    | child_window(title="Parent:", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbParentCo", control_type="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Parent:'    (L423, T370, R631, B391)
+   |    |    |    |    |    | ['Parent:Static', 'Parent:2', 'Static18', 'Parent:Static0', 'Parent:Static1']
+   |    |    |    |    |    | child_window(title="Parent:", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Open'    (L615, T371, R630, B390)
+   |    |    |    |    |    | ['Button9', 'Open7', 'OpenButton7']
+   |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Parent:'    (L343, T370, R399, B391)
+   |    |    |    |    | ['Parent:Static2', 'Parent:3', 'Static19']
+   |    |    |    |    | child_window(title="Parent:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbParentCo", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - 'Writing:'    (L423, T394, R631, B415)
+   |    |    |    |    | ['Writing:ComboBox', 'Writing:', 'ComboBox8', 'Writing:0', 'Writing:1']
+   |    |    |    |    | child_window(title="Writing:", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbWritingCo", control_type="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Writing:'    (L423, T394, R631, B415)
+   |    |    |    |    |    | ['Writing:Static', 'Writing:2', 'Static20', 'Writing:Static0', 'Writing:Static1']
+   |    |    |    |    |    | child_window(title="Writing:", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Open'    (L615, T395, R630, B414)
+   |    |    |    |    |    | ['Button10', 'Open8', 'OpenButton8']
+   |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Writing:'    (L343, T394, R415, B415)
+   |    |    |    |    | ['Writing:Static2', 'Writing:3', 'Static21']
+   |    |    |    |    | child_window(title="Writing:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbWritingCo", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Submission #:'    (L17, T146, R121, B167)
+   |    |    |    | ['Submission #:3', 'Submission #:Static2', 'Static22']
+   |    |    |    | child_window(title="Submission #:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbCopyPolPolNo", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Enter the Basic Policy Information or select a Submission to create the renewal/rewrite of this Policy.\nThe most current Application version(s) will default.'    (L9, T50, R649, B82)
+   |    |    |    | ['Enter the Basic Policy Information or select a Submission to create the renewal/rewrite of this Policy.\nThe most current Application version(s) will default.Static', 'Static23', 'Enter the Basic Policy Information or select a Submission to create the renewal/rewrite of this Policy.\nThe most current Application version(s) will default.']
+   |    |    |    | child_window(title="Enter the Basic Policy Information or select a Submission to create the renewal/rewrite of this Policy.\nThe most current Application version(s) will default.", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCopyPolThisfeature", control_type="Text")
+   |    |    |    | 
+   |    |    |    | CheckBox - 'Continuous'    (L225, T274, R315, B297)
+   |    |    |    | ['ContinuousCheckBox', 'CheckBox7', 'Continuous']
+   |    |    |    | child_window(title="Continuous", auto_id="chkCopyPolicy_CopyPolCopyPol_BPolIsContinuous", control_type="CheckBox")
+   |    |    |    | 
+   |    |    |    | CheckBox - 'Not Renewable'    (L225, T283, R336, B343)
+   |    |    |    | ['Not Renewable', 'CheckBox8', 'Not RenewableCheckBox']
+   |    |    |    | child_window(title="Not Renewable", auto_id="chkCopyPolicy_CopyPolCopyPol_BPolNotRenewable", control_type="CheckBox")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L9, T330, R324, B380)
+   |    |    |    | ['Pane6', 'Issue State:Pane', 'Issue State:Pane0', 'Issue State:Pane1']
+   |    |    |    | child_window(auto_id="cntrlCopyPolicy_CopyPolCopyPol_BPolSubscription", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L9, T330, R324, B380)
+   |    |    |    |    | ['Pane7', 'Issue State:Pane2']
+   |    |    |    |    | child_window(auto_id="layoutSubscription", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Issue State:'    (L16, T335, R93, B348)
+   |    |    |    |    |    | ['Static24', 'Issue State:', 'Issue State:Static', 'Issue State:Static0', 'Issue State:Static1']
+   |    |    |    |    |    | child_window(title="Issue State:", auto_id="lblIssueState", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Carrier Status:'    (L16, T360, R109, B373)
+   |    |    |    |    |    | ['Carrier Status:Static', 'Carrier Status:', 'Static25', 'Carrier Status:0', 'Carrier Status:1', 'Carrier Status:Static0', 'Carrier Status:Static1']
+   |    |    |    |    |    | child_window(title="Carrier Status:", auto_id="lblCarrierStatus", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Carrier Status:'    (L120, T356, R221, B377)
+   |    |    |    |    |    | ['Carrier Status:2', 'ComboBox9', 'Carrier Status:ComboBox']
+   |    |    |    |    |    | child_window(title="Carrier Status:", auto_id="cmbPolicySub_PolicySubCmbCarrierStatus", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'Carrier Status:'    (L120, T356, R221, B377)
+   |    |    |    |    |    |    | ['Carrier Status:Static2', 'Carrier Status:3', 'Static26']
+   |    |    |    |    |    |    | child_window(title="Carrier Status:", control_type="Text")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - 'Open'    (L205, T357, R220, B376)
+   |    |    |    |    |    |    | ['Button11', 'Open9', 'OpenButton9']
+   |    |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'NY'    (L120, T331, R221, B352)
+   |    |    |    |    |    | ['NY', 'NYComboBox', 'ComboBox10']
+   |    |    |    |    |    | child_window(title="NY", auto_id="cmbPolicySub_PolicySubCmbIssueState", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L120, T331, R221, B352)
+   |    |    |    |    |    |    | ['Static27', 'Issue State:Static2']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - 'Open'    (L205, T332, R220, B351)
+   |    |    |    |    |    |    | ['Button12', 'Open10', 'OpenButton10']
+   |    |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CheckBox - 'Reinsurance'    (L229, T356, R334, B377)
+   |    |    |    |    |    | ['CheckBox9', 'Reinsurance', 'ReinsuranceCheckBox']
+   |    |    |    |    |    | child_window(title="Reinsurance", auto_id="chkPolicySub_PolicySubChkReinsurance", control_type="CheckBox")
+   |    |    |    | 
+   |    |    |    | Static - 'To create a Renewal from an existing Submission, select Submission # and Effective Date:'    (L9, T82, R641, B114)
+   |    |    |    | ['Static28', 'To create a Renewal from an existing Submission, select Submission # and Effective Date:Static', 'To create a Renewal from an existing Submission, select Submission # and Effective Date:']
+   |    |    |    | child_window(title="To create a Renewal from an existing Submission, select Submission # and Effective Date:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCopyPolSelectPol", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Transaction:'    (L337, T250, R425, B271)
+   |    |    |    | ['Static29', 'Transaction:Static2', 'Transaction:3']
+   |    |    |    | child_window(title="Transaction:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbTransaction", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Renewal/Term:'    (L17, T390, R121, B413)
+   |    |    |    | ['Renewal/Term:Static', 'Renewal/Term:', 'Static30', 'Renewal/Term:Static0', 'Renewal/Term:Static1', 'Renewal/Term:0', 'Renewal/Term:1']
+   |    |    |    | child_window(title="Renewal/Term:", auto_id="lblCopyPolicy_CopyPolCopyPol_RenewalTerm", control_type="Text")
+   |    |    |    | 
+   |    |    |    | UpDown - 'Spinner'    (L121, T386, R168, B407)
+   |    |    |    | ['UpDown', 'SpinnerUpDown', 'Spinner', 'UpDown0', 'UpDown1']
+   |    |    |    | child_window(title="Spinner", auto_id="nudCopyPolicy_CopyPolCopyPol_RenewalTermCount", control_type="Spinner")
+   |    |    |    |    | 
+   |    |    |    |    | UpDown - 'NumericUpDownEx'    (L151, T387, R167, B406)
+   |    |    |    |    | ['NumericUpDownEx', 'UpDown2', 'NumericUpDownExUpDown']
+   |    |    |    |    | child_window(title="NumericUpDownEx", auto_id="nudNumericUpDown_System.Windows.Forms.UpDownBase+UpDownButtons", control_type="Spinner")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Up'    (L151, T387, R167, B396)
+   |    |    |    |    |    | ['Button13', 'UpButton', 'Up']
+   |    |    |    |    |    | child_window(title="Up", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Down'    (L151, T396, R167, B405)
+   |    |    |    |    |    | ['Button14', 'DownButton', 'Down']
+   |    |    |    |    |    | child_window(title="Down", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - 'Spinner'    (L123, T388, R150, B405)
+   |    |    |    |    | ['Edit6', 'Renewal/Term:Edit']
+   |    |    |    |    | child_window(title="Spinner", auto_id="nudNumericUpDown_System.Windows.Forms.UpDownBase+UpDownEdit", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | Pane - 'Broker:'    (L15, T456, R333, B579)
+   |    |    |    | ['Pane8', 'Broker:', 'Broker:Pane', 'Broker:0', 'Broker:1']
+   |    |    |    | child_window(title="Broker:", auto_id="amsBusinessUnit", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - 'Business Unit'    (L15, T456, R333, B528)
+   |    |    |    |    | ['Business Unit', 'Business UnitGroupBox', 'GroupBox4']
+   |    |    |    |    | child_window(title="Business Unit", auto_id="grpBusinessUnit", control_type="Group")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Division:'    (L23, T472, R87, B493)
+   |    |    |    |    |    | ['Division:', 'Static31', 'Division:Static', 'Division:Static0', 'Division:Static1']
+   |    |    |    |    |    | child_window(title="Division:", auto_id="lblCopyPolicy_CopyPolCopyPol_BusinessUnitCmbDivision", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Dept:'    (L23, T496, R87, B517)
+   |    |    |    |    |    | ['Dept:Static', 'Dept:', 'Static32', 'Dept:Static0', 'Dept:Static1']
+   |    |    |    |    |    | child_window(title="Dept:", auto_id="lblCopyPolicy_CopyPolCopyPol_BusinessUnitCmbDept", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Division one'    (L95, T472, R317, B493)
+   |    |    |    |    |    | ['Division oneComboBox', 'Division one', 'ComboBox11']
+   |    |    |    |    |    | child_window(title="Division one", auto_id="cmbCopyPolicy_CopyPolCopyPol_BusinessUnitCmbDivision", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L95, T472, R317, B493)
+   |    |    |    |    |    |    | ['Static33', 'Division:Static2']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - 'Open'    (L301, T473, R316, B492)
+   |    |    |    |    |    |    | ['Button15', 'Open11', 'OpenButton11']
+   |    |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Department 1'    (L95, T496, R317, B517)
+   |    |    |    |    |    | ['Department 1', 'Department 1ComboBox', 'ComboBox12']
+   |    |    |    |    |    | child_window(title="Department 1", auto_id="cmbCopyPolicy_CopyPolCopyPol_BusinessUnitCmbDept", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L95, T496, R317, B517)
+   |    |    |    |    |    |    | ['Dept:Static2', 'Static34']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - 'Open'    (L301, T497, R316, B516)
+   |    |    |    |    |    |    | ['Button16', 'Open12', 'OpenButton12']
+   |    |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    | 
+   |    |    |    | GroupBox - 'Primary Service Group'    (L661, T330, R965, B450)
+   |    |    |    | ['Primary Service GroupGroupBox', 'Primary Service Group', 'GroupBox5']
+   |    |    |    | child_window(title="Primary Service Group", auto_id="grpCopyPolicy_CopyPolCopyPol_CopyPolicyPSG", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - 'Executive:'    (L773, T355, R949, B376)
+   |    |    |    |    | ['Executive:ComboBox', 'Executive:', 'ComboBox13', 'Executive:0', 'Executive:1']
+   |    |    |    |    | child_window(title="Executive:", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbExec", control_type="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Executive:'    (L773, T355, R949, B376)
+   |    |    |    |    |    | ['Executive:2', 'Static35', 'Executive:Static', 'Executive:Static0', 'Executive:Static1']
+   |    |    |    |    |    | child_window(title="Executive:", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Open'    (L933, T356, R948, B375)
+   |    |    |    |    |    | ['Button17', 'Open13', 'OpenButton13']
+   |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Executive:'    (L676, T355, R764, B376)
+   |    |    |    |    | ['Executive:3', 'Static36', 'Executive:Static2']
+   |    |    |    |    | child_window(title="Executive:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbExec", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - 'Rep:'    (L773, T385, R949, B406)
+   |    |    |    |    | ['Rep:ComboBox', 'Rep:', 'ComboBox14', 'Rep:0', 'Rep:1']
+   |    |    |    |    | child_window(title="Rep:", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbRep", control_type="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Rep:'    (L773, T385, R949, B406)
+   |    |    |    |    |    | ['Rep:2', 'Static37', 'Rep:Static', 'Rep:Static0', 'Rep:Static1']
+   |    |    |    |    |    | child_window(title="Rep:", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Open'    (L933, T386, R948, B405)
+   |    |    |    |    |    | ['Button18', 'Open14', 'OpenButton14']
+   |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Rep:'    (L675, T385, R763, B406)
+   |    |    |    |    | ['Rep:3', 'Static38', 'Rep:Static2']
+   |    |    |    |    | child_window(title="Rep:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbRep", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ComboBox - 'Weekes Dier Agency'    (L773, T415, R949, B436)
+   |    |    |    |    | ['Weekes Dier Agency', 'Weekes Dier AgencyComboBox', 'ComboBox15']
+   |    |    |    |    | child_window(title="Weekes Dier Agency", auto_id="cmbCopyPolicy_CopyPolCopyPol_CopyPolCmbBroker", control_type="ComboBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L773, T415, R949, B436)
+   |    |    |    |    |    | ['Static39', 'Rep:Static3']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Open'    (L933, T416, R948, B435)
+   |    |    |    |    |    | ['Button19', 'Open15', 'OpenButton15']
+   |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Broker:'    (L676, T415, R764, B436)
+   |    |    |    |    | ['Broker:2', 'Static40', 'Broker:Static']
+   |    |    |    |    | child_window(title="Broker:", auto_id="lblCopyPolicy_CopyPolCopyPol_CopyPolCmbBroker", control_type="Text")
+   | 
+   | StatusBar - 'Ready'    (L0, T1008, R1920, B1032)
+   | ['Ready', 'StatusBar', 'ReadyStatusBar']
+   | child_window(title="Ready", auto_id="sbrBaseInternal", control_type="StatusBar")
+   |    | 
+   |    | Thumb - 'Grip'    (L3, T1008, R8, B1030)
+   |    | ['GripThumb', 'Thumb', 'Grip']
+   |    | child_window(title="Grip", control_type="Thumb")
+   |    | 
+   |    | Static - 'sbrBaseAgencyInternal'    (L1665, T1011, R1825, B1030)
+   |    | ['sbrBaseAgencyInternal', 'sbrBaseAgencyInternalStatic', 'Static41']
+   |    | child_window(title="sbrBaseAgencyInternal", control_type="Text")
+   |    | 
+   |    | Static - 'sbrBaseLoginInternal'    (L1825, T1011, R1900, B1030)
+   |    | ['sbrBaseLoginInternal', 'sbrBaseLoginInternalStatic', 'Static42']
+   |    | child_window(title="sbrBaseLoginInternal", control_type="Text")
+   | 
+   | Static - 'Renewal/Term:'    (L-100, T-77, R0, B-45)
+   | ['Renewal/Term:Static2', 'Renewal/Term:2', 'Static43']
+   | child_window(title="Renewal/Term:", auto_id="lblForceValidation", control_type="Text")
+   | 
+   | TitleBar - ''    (L16, T-5, R1920, B23)
+   | ['Renewal/Term:TitleBar', 'TitleBar']
+   |    | 
+   |    | Menu - 'System'    (L0, T0, R22, B22)
+   |    | ['System', 'Menu', 'SystemMenu', 'System0', 'System1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'System'    (L0, T0, R22, B22)
+   |    |    | ['SystemMenuItem', 'System2', 'MenuItem']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Minimize'    (L1779, T0, R1826, B22)
+   |    | ['Button20', 'Minimize', 'MinimizeButton']
+   |    | child_window(title="Minimize", control_type="Button")
+   |    | 
+   |    | Button - 'Restore'    (L1826, T0, R1872, B22)
+   |    | ['Restore', 'Button21', 'RestoreButton']
+   |    | child_window(title="Restore", control_type="Button")
+   |    | 
+   |    | Button - 'Close'    (L1872, T0, R1920, B22)
+   |    | ['Close', 'Button22', 'CloseButton']
+   |    | child_window(title="Close", control_type="Button")

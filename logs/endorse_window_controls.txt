@@ -1,0 +1,104 @@
+Control Identifiers:
+
+Dialog - 'Endorsement - ACI04B11019405 (7/20/2026 - 7/20/2027)'    (L130, T130, R604, B353)
+['Endorsement - ACI04B11019405 (7/20/2026 - 7/20/2027)', 'Dialog', 'Endorsement - ACI04B11019405 (7/20/2026 - 7/20/2027)Dialog']
+child_window(title="Endorsement - ACI04B11019405 (7/20/2026 - 7/20/2027)", auto_id="frmPolicyEndorsement", control_type="Window")
+   | 
+   | Pane - ''    (L138, T161, R596, B321)
+   | ['Pane', 'To create this transaction enter the information below and press OK.Pane', 'Pane0', 'Pane1', 'To create this transaction enter the information below and press OK.Pane0', 'To create this transaction enter the information below and press OK.Pane1']
+   | child_window(auto_id="m_oPanelMain", control_type="Pane")
+   |    | 
+   |    | Pane - ''    (L146, T169, R584, B321)
+   |    | ['Pane2', 'To create this transaction enter the information below and press OK.Pane2']
+   |    | child_window(auto_id="mppEndorsement_Endorse", control_type="Pane")
+   |    |    | 
+   |    |    | ComboBox - 'Transaction:'    (L290, T201, R562, B222)
+   |    |    | ['Transaction:', 'ComboBox', 'Transaction:ComboBox', 'Transaction:0', 'Transaction:1']
+   |    |    | child_window(title="Transaction:", auto_id="cmbEndorsement_Endorse_TranType", control_type="ComboBox")
+   |    |    |    | 
+   |    |    |    | Static - 'Transaction:'    (L290, T201, R562, B222)
+   |    |    |    | ['Static', 'Transaction:2', 'Transaction:Static', 'Static0', 'Static1', 'Transaction:Static0', 'Transaction:Static1']
+   |    |    |    | child_window(title="Transaction:", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'Open'    (L546, T202, R561, B221)
+   |    |    |    | ['Open', 'Button', 'OpenButton', 'Button0', 'Button1']
+   |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Pane - '1/1/0001 12:00:00 AM'    (L290, T225, R386, B248)
+   |    |    | ['Pane3', '1/1/0001 12:00:00 AM', '1/1/0001 12:00:00 AMPane']
+   |    |    | child_window(title="1/1/0001 12:00:00 AM", auto_id="dtpEndorsement_Endorse_PolTEffDate", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Edit - 'Effective Date:'    (L290, T226, R371, B247)
+   |    |    |    | ['Transaction:Edit', 'Edit', 'Edit0', 'Edit1']
+   |    |    |    | child_window(title="Effective Date:", auto_id="ZZZm_txtDateValue", control_type="Edit")
+   |    |    | 
+   |    |    | Static - 'Transaction:'    (L170, T201, R284, B222)
+   |    |    | ['Static2', 'Transaction:3', 'Transaction:Static2']
+   |    |    | child_window(title="Transaction:", auto_id="lblEndorsement_Endorse_TranType", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Effective Date:'    (L170, T225, R284, B248)
+   |    |    | ['Effective Date:Static', 'Static3', 'Effective Date:']
+   |    |    | child_window(title="Effective Date:", auto_id="lblEndorsement_Endorse_PolTEffDate", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Description:'    (L170, T249, R284, B270)
+   |    |    | ['Description:', 'Static4', 'Description:Static']
+   |    |    | child_window(title="Description:", auto_id="lblEndorsement_Endorse_PolTDescription", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'OK'    (L298, T289, R373, B312)
+   |    |    | ['Button2', 'OK', 'OKButton']
+   |    |    | child_window(title="OK", auto_id="btnEndorsement_Endorse_EndorseOK", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Cancel'    (L394, T289, R469, B312)
+   |    |    | ['CancelButton', 'Button3', 'Cancel']
+   |    |    | child_window(title="Cancel", auto_id="btnEndorsement_Endorse_EndorseCancel", control_type="Button")
+   |    |    | 
+   |    |    | Edit - 'Description:'    (L290, T249, R562, B270)
+   |    |    | ['Description:Edit', 'Edit2']
+   |    |    | child_window(title="Description:", auto_id="txtEndorsement_Endorse_PolTDescription", control_type="Edit")
+   |    |    | 
+   |    |    | Static - 'To create this transaction enter the information below and press OK.'    (L154, T177, R586, B193)
+   |    |    | ['To create this transaction enter the information below and press OK.Static', 'Static5', 'To create this transaction enter the information below and press OK.']
+   |    |    | child_window(title="To create this transaction enter the information below and press OK.", auto_id="lblEndorsement_Endorse_EndorseToCreate", control_type="Text")
+   | 
+   | StatusBar - 'Ready'    (L138, T321, R596, B345)
+   | ['Ready', 'ReadyStatusBar', 'StatusBar']
+   | child_window(title="Ready", auto_id="sbrBaseInternal", control_type="StatusBar")
+   |    | 
+   |    | Thumb - 'Grip'    (L141, T321, R146, B343)
+   |    | ['Thumb', 'Grip', 'GripThumb']
+   |    | child_window(title="Grip", control_type="Thumb")
+   |    | 
+   |    | Static - 'sbrBaseAgencyInternal'    (L341, T324, R501, B343)
+   |    | ['sbrBaseAgencyInternalStatic', 'sbrBaseAgencyInternal', 'Static6']
+   |    | child_window(title="sbrBaseAgencyInternal", control_type="Text")
+   |    | 
+   |    | Static - 'sbrBaseLoginInternal'    (L501, T324, R576, B343)
+   |    | ['sbrBaseLoginInternal', 'sbrBaseLoginInternalStatic', 'Static7']
+   |    | child_window(title="sbrBaseLoginInternal", control_type="Text")
+   | 
+   | Static - ''    (L38, T61, R138, B93)
+   | ['Static8']
+   | child_window(auto_id="lblForceValidation", control_type="Text")
+   | 
+   | TitleBar - ''    (L154, T133, R596, B161)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'System'    (L138, T138, R160, B160)
+   |    | ['System', 'SystemMenu', 'Menu', 'System0', 'System1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'System'    (L138, T138, R160, B160)
+   |    |    | ['System2', 'MenuItem', 'SystemMenuItem']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Minimize'    (L457, T131, R504, B161)
+   |    | ['MinimizeButton', 'Button4', 'Minimize']
+   |    | child_window(title="Minimize", control_type="Button")
+   |    | 
+   |    | Button - 'Maximize'    (L504, T131, R550, B161)
+   |    | ['Maximize', 'Button5', 'MaximizeButton']
+   |    | child_window(title="Maximize", control_type="Button")
+   |    | 
+   |    | Button - 'Close'    (L550, T131, R597, B161)
+   |    | ['Close', 'CloseButton', 'Button6']
+   |    | child_window(title="Close", control_type="Button")
